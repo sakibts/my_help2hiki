@@ -1,0 +1,28 @@
+!!gem中のhikisからhikiへの自動変換
+rubyのライブラリーパッケージの標準となるgemのdirectory構造にhikisというdirectoryを作って文書作成している．hiki --initializeでこのなかのhikidocファイルをウェブ上のhikiと同期する機能を提供する．
+これによって，gem/hikisで作成した文書は，githubあるいはrubygems.orgを通じて共有可能となる．
+以下にこの同期をスムーズに行うための幾つかのconventionを使用法とともにまとめている．
+!!!使用法，コマンド
+* hiki --initializeで必要なファイル(Rakefile, ./.hikirc, hiki_help.yml)がcopyされる
+* hiki_help.ymlは適宜~/.my_helpにcopyしてhiki_helpとして利用[[my_help参照|MyHelp_install]]
+* rake syncによってhikiディレクトリーと同期が取られる
+* rake convert 20 TARGET.pngによって，figs/TAERGET.pngに20%縮小して保存される
+* hiki -u TARGETによってブラウザー表示される
+!!!同期に関する制約
+* hikiはフラットなdirectory構造を取っている
+* hikiの文書はスネーク表記(例えば，latex2hiki_saki)で階層構造に似せている
+* hikiのurlの接頭語となる名前をbasenameのdirectory名とする．
+* directory名が'hikis'である場合はその親directory名となる．
+* ~/.hikircのtarget directoryを同期先のdirectoryとする．
+* ~/.hikircがない場合は同期先のdirectoryを聞く．
+* それらは./.hikircに保存される
+!!!テキスト
+* テキストの拡張子は'.hiki'としている
+* hikiでのurlはテキスト前とディレクトリーから自動生成される
+* 例えば，hiki2latex_saki/introduciton.hikiとするとhiki2latex_saki_introducitonと変換される
+* attach_anchorでは
+ '{{attach_anchor(test.png, hiki2latex_saki)}}'
+と，directory指定しなければならない.
+
+my_help2hiki_saki_hiki_syncのコピー
+書き換えていく
