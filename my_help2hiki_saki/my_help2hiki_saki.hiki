@@ -3,18 +3,21 @@
 !!関西学院大学 理工学部 情報科学科 3550 西谷研究室 江本沙紀
 !!開発の背景
 *[[introduction|my_help2hiki_saki_introduction]]
-!!関連するシステムと使い方
+
+!!関連するシステムについて
 !!!my_help
 *[[my_help|my_help2hiki_saki_my_help]]
 !!!hiki(wiki)
 *[[hiki|my_help2hiki_saki_hiki]]
 !!!latex
 *[[latex|my_help2hiki_saki_latex]]
+!!!hikiutils
+*[[my_help2hiki_saki_hiki_sync]]
+
+!!メモ，wiki，latexの自動変換システム
 !!!my_help2hiki
 *[[my_help2hiki|my_help2hiki_saki_my_help2hiki]]
 !!!hiki2latex
 *[[hiki2latex|my_help2hiki_saki_hiki2latex]]
-!!!hikiutils
-*[[my_help2hiki_saki_hiki_sync]]
-!!メモ，wiki，latexの自動変換
+!!!my_help，wiki，latexの関連
 *[[my_help2hiki_saki_my_help_hiki_latex]]
