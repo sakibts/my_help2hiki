@@ -1,4 +1,19 @@
-先生のhiki2latexのページ見て書いていく，予定
+!!hiki形式で書かれた文章をlatex形式に自動変換する
+!!!使用法，コマンド
+* hiki2latex -v : hiki2latexのversion表示
+* hiki2latex -p FILE : latexの一般的なフォーマットへ変換
+* hiki2latex -b FILE : 
+<<<
+Usage: hiki2latex [options] FILE
+    -v, --version                    show program Version.
+    -l, --level VALUE                set Level for output section.
+    -p, --plain FILE                 make Plain document.
+    -b, --bare FILE                  make Bare document.
+        --head FILE                  put headers of maketitle file.
+        --pre FILE                   put preamble file.
+        --post FILE                  put post file.
+        --listings                   use listings.sty for preformat with style.
+>>>
 
 !!gem中のhikisからhikiへの自動変換
 rubyのライブラリーパッケージの標準となるgemのdirectory構造にhikisというdirectoryを作って文書作成している．hiki --initializeでこのなかのhikidocファイルをウェブ上のhikiと同期する機能を提供する．

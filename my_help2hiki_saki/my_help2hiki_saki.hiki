@@ -1,9 +1,20 @@
 {{toc}}
-!my_help,hiki,latexの自動変換システムの開発
-*[[Introduciton|my_help2hiki_saki_introduction]]
-!my_help2hikiの使用形態と仕様
+!ユーザメモとwikiを連携するシステムの開発
+!!関西学院大学 理工学部 情報科学科 3550 西谷研究室 江本沙紀
+!!開発の背景
+*[[introduction|my_help2hiki_saki_introduction]]
+!!関連するシステムと使い方
+!!!my_help
+*[[my_help|my_help2hiki_saki_my_help]]
+!!!hiki(wiki)
+*[[hiki|my_help2hiki_saki_hiki]]
+!!!latex
+*[[latex|my_help2hiki_saki_latex]]
+!!!my_help2hiki
 *[[my_help2hiki|my_help2hiki_saki_my_help2hiki]]
-!hiki2latexのねらいと仕様
+!!!hiki2latex
 *[[hiki2latex|my_help2hiki_saki_hiki2latex]]
-!hikiutilsの使い方
+!!!hikiutils
 *[[my_help2hiki_saki_hiki_sync]]
+!!メモ，wiki，latexの自動変換
+*[[my_help2hiki_saki_my_help_hiki_latex]]

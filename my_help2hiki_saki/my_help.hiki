@@ -1,0 +1,36 @@
+!!ユーザ独自のhelpを作成するgem
+!!!gemとは
+正式名称はRubyGems．
+Ruby用のライブラリを使う時に必要となるソフトウェアのこと．
+パッケージ管理ツールgemがあることで，Ruby用ライブラリの
+インストール，アンインストール，バージョン管理などを簡単に
+行うことができる．
+プログラミング言語Rubyのファイルに付属されていて，
+無料で利用することができる．参考文献2(https://blog.codecamp.jp/rails-gem 1/27)
+
+!!!gemのメリット
+*標準化された構造があるので，初めてみた人でも分かるようになっている．
+*gemがあることで，簡単にRuby用ライブラリをインストールでき，初心者でもアプリ機能を装備できる．
+*誰でも作成，配布が可能である．
+
+!!!my_helpとは
+西谷研究室で使用しているgem．
+<<<
+Usage: my_help [options]
+    -v, --version                    show program Version.
+    -l, --list                       list specific helps
+    -e, --edit NAME                  edit NAME help(eg test_help)
+    -i, --init NAME                  initialize NAME help(eg test_help).
+    -m, --make                       make executables for all helps.
+    -c, --clean                      clean up exe dir.
+        --install_local              install local after edit helps
+        --delete NAME                delete NAME help
+        --hiki                       my_help2hiki
+>>>
+上記のようなコマンドが用意されていて，
+ユーザ独自のhelp(メモ)を作成することができる．
+
+!!!my_helpを研究室内で利用する利点
+*研究室内でのメモの書き方が統一できる．
+*どこにメモをしたか忘れることがない．
+*普段研究の為に使うターミナルから離れること無くメモを残すことができるので，書きたいときにすぐに書くことができる．
