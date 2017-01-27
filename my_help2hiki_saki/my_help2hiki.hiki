@@ -1,34 +1,111 @@
-!!my_helpで作成したメモからwikiへの自動変換
+!!my_help2hikiとは
 個々のユーザが独自のメモを作ることのできるgem，my_helpを利用して作成した
-メモをwikiへ自動変換することで，個人のメモを互いに見れるようにすることで，
+メモをwikiへ自動変換することで，個人のメモを互いに見れるようにし，
 研究室内で情報を共有する．
-my_helpによりユーザが独自のメモを作り終えたことを仮定して，
-全員が情報共有を行えるよう，コマンドとコマンドによるシステムの
-振る舞いを私が得た暗黙知を形式知化したものと共に，以下にまとめる．
+
 !!!コマンド
-* --push : 作成したメモをサーバに送る
-scp -r ~/.my_help [server名]
-を実行することで.my_helpのディレクトリ全体をサーバにコピーする．
-ssh [server名]で接続できるが，接続してしまうとその後のコマンドが
-全てサーバの方で実行されてしまうため，うまく実行ができなかった．
-scpの後の-rはディレクトリ全体をコピーすることを示している．
-
-my_helpでは，作成したメモが.my_helpのディレクトリに自動的に追加される．
-このとき，一つ前に保存したファイルもバックアップとして保存されているので，
-サーバにコピーするときのデータ量を減らすために必要なメモだけを
-残して,不必要なファイルは削除している．
-
+*TARGET --push : 作成したメモ(TARGET)をサーバに送る
 *my_help --hiki : 作成したメモをhiki形式に変換し，wikiで表示できるようにする．
-コマンドを実行すると，
-[TARGET] --to_hiki > ~/Sites・hiki-1.0/date/text/[TARGET]
-が行われている．TARGETには作成したメモが入る．
-my_helpには，--to_hikiというコマンドがあり，これによって
+
+!!!コマンドの振る舞い
+!!!!TARGET --push
+<<<
+date_dir = File.join(ENV['HOME'],'.my_help')
+FileUtils.cd(data_dir)
+system "rm -rf ~/.my_help/*.yml~"
+system "scp -r ~/.my_help saki@nishitani0:~"
+system "ssh saki@nishitani0 ls ~/.my_help"
+>>>
+*1，2行目
+my_helpでは，作成したメモが.my_helpのディレクトリに自動的に追加されるので，
+ディレクトリを.my_helpに移動する．
+*3行目
+.my_helpにメモが追加されるとき，yaml形式のファイルで保存される．
+メモを更新すると，一つ前に保存したファイルは*.yml~というファイル名
+でバックアップとして残される．
+'''rm -rf'''で不必要なファイルは削除し，サーバにコピーするときのデータ量を減らしている．
+*4行目
+'''scp -r ~/[directory名] [server名]'''
+serverにssh接続を行い，directoryをserverにコピーする．
+-rはディレクトリ全体をコピーすることを示している．
+西谷研究室で利用しているnishitani0というサーバにコピーしている．
+
+----
+
+*失敗例
+ターミナルでこのコマンドを使わずにコピーする場合
+<<<
+/Users/saki/my_help% ssh nishitani0
+Last login: Mon Jan  2 22:16:29 2017 from 59x87x69x163.ap59.ftth.ucom.ne.jp
+[nishitani0:~] saki% cp -r ~/.my_help saki@nishitani0
+[nishitani0:~] saki% exit
+logout
+Connection to nishitani0 closed.
+>>>
+上記にようにすると，sshで接続し.my_helpをdirectoryをcpを使ってコピー，
+ssh接続を切るという作業を1行ずつ行うことができる．
+同じようにコマンドの中身を下記のようにした．
+<<<
+system "ssh nishitani0"
+system "cp -r ~/.my_help saki@nishitani0"
+system "exit"
+>>>
+実行結果
+<<<
+/Users/saki/my_help% bundle exec exe/my_todo --push
+Last login: Sat Jan 28 03:49:46 2017 from 59x87x69x163.ap59.ftth.ucom.ne.jp
+[nishitani0:~] saki% 
+>>>
+このように1行目のみ実行したところで終了してしまった．
+ssh接続を行うと，その後の命令は全てserver側で実行されることになるため，
+1行ずつ行うと途中でターミナルでは実行ができなくなってしまいうまくいかない．
+
+----
+
+*失敗例2
+'''ssh [server名] [command]'''とするとserverにsshで接続してcommandを実行し
+ログアウトすることができるため，以下のように書き換えた．
+<<<
+system "ssh nishitani0 cp ~/.my_help saki@nishitani0"
+>>>
+実行結果
+<<<
+/Users/saki/my_help% bundle exec exe/my_todo --push
+cp: /Users/saki/.my_help is a directory (not copied).
+>>>
+sshでファイルやディレクトリをコピーするコマンドはcpではなくscpなので，
+実行することができなかった．
+*5行目
+nishitani0にssh接続し.my_helpの中身を書き出して，
+コピーができているかコマンドを実行した時に確認が行えるようにしている．
+
+----
+
+!!!!my_help --hiki
+<<<
+system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/text/emacs_help_saki"
+system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/text/my_todo_saki"
+system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/text/ssh_help_saki"
+system "open -a safari 'http://localhost/~saki/hiki-1.0/?FrontPage'"
+>>>
+*1~3行目
+my_helpには，'''TARGET --to_hiki'''というコマンドがあり，これによって
 yaml形式で保存されているメモをhiki形式で書き出すことができる．
-このコマンドでhikiの形にしたファイルを，wikiで表示することのできる
-フォルダに入れることで，wikiでの表示を可能にしている．
-my_help--hikiではファイルを変換して書き出すだけでなく，wikiのページを
-自動的に表示するところまでをコマンドで実行しているので，
-メモが更新されているのを即時確認することができる．
+この --hiki のコマンドを使ってhiki形式にしたものを，wikiで表示することのできる
+フォルダである'''~/Sites/hiki-1.0/data/text/'''に入れることで，wikiでの表示を可能にしている．
+emacs_help，my_todo，ssh_helpは全て私のmy_helpに入っているメモ．
+*4行目
+wikiのページ'''FrontPage'''を表示するコマンド．
+これによりメモが更新されているのを即時確認することができる．
+FrontPageは以下のようになっている．
+<<<
+!saki's help
+*[[ssh_help_saki]]
+*[[my_todo_saki]]
+*[[emacs_help_saki]]
+>>>
+先頭に'''!'''をつけることで1行目のsaki's helpを見出しにし，
+2~4行目は'''*'''によって箇条書き，各括弧でリンクになっている．
 
 !!!利便性
 メモを更新してから，上記の２つのコマンドを共に行うと，
