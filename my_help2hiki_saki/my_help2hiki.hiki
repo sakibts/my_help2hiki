@@ -106,3 +106,6 @@ FrontPageは以下のようになっている．
 >>>
 先頭に'''!'''をつけることで1行目のsaki's helpを見出しにし，
 2~4行目は'''*'''によって箇条書き，角括弧でリンクになっている．
+
+||{{attach_view(my_help2hiki_saki.002.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.002} コマンドを実行したときに開くFrontPage||

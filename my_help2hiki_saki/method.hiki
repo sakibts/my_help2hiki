@@ -1,5 +1,7 @@
-!!従来のmemo，latex，hiki(図2)
-上の図にmemo，latex，hikiの比較をまとめた．
+!!従来のmemo，latex，hiki
+||{{attach_view(my_help2hiki_saki.003.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.003} memo，latex，hikiの比較||
+
 !!!my_help
 my_helpは，メモを作るためのgem．
 ユーザがターミナルを利用して作成し，閲覧する．
@@ -20,8 +22,13 @@ pdfは一般的に使われている電子ファイルで，印刷して卒業�
 このようにmy_help，wiki，latexは書式や作成，閲覧方法が全て違う．
 目的も異なるので，同じ内容のファイルをそれぞれの書式で書かなければならないことがある．
 
-(図3)
-hiki2latexの開発によりwikiとlatexの変換はできるようになったが，
+||{{attach_view(my_help2hiki_saki.004.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.004} hiki2latex||
+
+hiki2latexの開発により上図のようにwikiとlatexの変換はできるようになったが，
 my_helpとwiki，my_helpとlatexは関連させることができなかった．
 本研究により，my_help，wiki，latexを関連させるため，
 my_helpからwikiへ自動変換を行うシステムmy_help2hikiの開発を目指す．
+
+||{{attach_view(my_help2hiki_saki.005.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.005} my_help2hiki||

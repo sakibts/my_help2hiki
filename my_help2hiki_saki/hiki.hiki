@@ -1,8 +1,8 @@
 !!hikiとは
 Rubyで書かれた高機能・高速Wikiクローン．
-参考文献2(http://hikiwiki.org/ja/ 1/27)
+参考文献3(http://hikiwiki.org/ja/ 1/27)
 CGI(Commond Gateway Interface)を利用して，Webサーバと連動して動く．
-参考文献3(https://ja.wikipedia.org/wiki/Hiki 1/27)
+参考文献4(https://ja.wikipedia.org/wiki/Hiki 1/27)
 西谷研究室では，hikiの形式を利用してサイトを作り，
 研究室内での情報共有やgemの使い方などを掲載して閲覧できるようにしている．
 また，卒業論文の作成にもhikiの形式で作成している．

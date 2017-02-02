@@ -51,7 +51,7 @@ hiki形式のsample，hiki2latex_sample.hikiを例とする．
 \section{title2}
 \end{document}
 >>>
-このコマンドにより，hiki形式の雛形が生成されているとこが分かる．
+このコマンドにより，hiki形式の雛形が生成されていることが分かる．
 
 *hiki2latex -b
 hiki2latex_sample.hikiを例とするコマンド実行例
@@ -71,10 +71,8 @@ hiki2latex_sample.hikiを例とするコマンド実行例
 同じファイルの中に，複数のlatexのファイルを含んでいるときに
 個別でファイル作成をするときに便利．
 
-*hiki2latex --head
-タイトル，著者を記述するときのフォーマットを挿入する．
-*hiki2latex --pre
-文字の前の空白などを入れる．
+*hiki2latex --head : タイトル，著者を記述するときのフォーマットを挿入する．
+*hiki2latex --pre : 文字の前の空白などを入れる．
 *hiki2latex --post
 
 上記3つは全てフォーマットを標準と違うものにするためのコマンド．

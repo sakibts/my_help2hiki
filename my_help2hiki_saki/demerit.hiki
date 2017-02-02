@@ -1,4 +1,4 @@
-my_help2hikiの欠点は，フォーマットが固定されていて，
+!!書き方が細かく定められている
 誤って一つでも消してしまうとエラーがでて動作しなくなってしまう．
 emacs_helpを例にする．emacs_helpの内容は下のようになっている．
 <<<
@@ -37,60 +37,8 @@ emacs_helpを例にする．emacs_helpの内容は下のようになっている
   - c-l, centerise Line,       現在行を中心に
   - M-<, move Top of file,    ファイルの先頭へ
   - M->, move Bottom of file, ファイルの最後尾へ
-:file:
-  :opts:
-    :short: "-f"
-    :long: "--ファイル"
-    :desc: File操作
-  :title: ファイル操作file
-  :cont:
-  - c-x c-f, Find file, ファイルを開く
-  - c-x c-s, Save file, ファイルを保存
-  - c-x c-w, Write file NAME, ファイルを別名で書き込む
-:edit:
-  :opts:
-    :short: "-e"
-    :long: "--編集"
-    :desc: Edit操作
-  :title: 編集操作edit
-  :cont:
-  - c-d, Delete char, 一字削除
-  - c-k, Kill line,   一行抹消，カット
-  - c-y, Yank,        ペースト
-  - c-w, Kill region, 領域抹消，カット
-  - "領域選択は，先頭or最後尾でc-spaceした後，最後尾or先頭へカーソル移動"
-  - c-s, forward incremental Search WORD, 前へWORDを検索
-  - c-r, Reverse incremental search WORD, 後へWORDを検索
-  - M-x query-replace WORD1 <ret> WORD2：対話的置換(y or nで可否選択)
-:window:
-  :opts:
-    :short: "-w"
-    :long: "--ウィンドウ"
-    :desc: Window操作
-  :title: ウィンドウ操作window
-  :cont:
-  - c-x 2, 2 windows, 二つに分割
-  - c-x 1, 1 windows, 一つに戻す
-  - c-x 3, 3rd window sep,縦線分割
-  - c-x o, Other windows, 次の画面へ移動
-:buffer:
-  :opts:
-    :short: "-b"
-    :long: "--バッファ"
-    :desc: Buffer操作
-  :title: バッファー操作buffer(すでにopenしてemacsにバッファーされたfile)
-  :cont:
-  - c-x b, show Buffer,   バッファのリスト
-  - c-x c-b, next Buffer, 次のバッファへ移動
-:quit:
-  :opts:
-    :short: "-q"
-    :long: "--終了"
-    :desc: "終了操作"
-  :title: 終了操作quit
-  :cont:
-  - c-x c-c, Quit emacs, ファイルを保存して終了
-  - c-z, suspend emacs,  一時停止，fgで復活
+  
+  (以下省略)
 >>>
 1行目の''':head:'''の後ろの''':'''を消してみる．
 ''':'''を消しただけで，メモを更新しようとすると
@@ -108,3 +56,19 @@ emacs_helpを例にする．emacs_helpの内容は下のようになっている
 	from /usr/bin/emacs_help:23:in `<main>'
 >>>
 このようになり，emacs_helpが動かなくなってしまう．
+使い慣れれば気づくことができるが，初心者ではエラーが見つけにくいと思われる．
+
+!!my_helpからlatexへの変換
+||{{attach_view(my_help2hiki_saki.007.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.007} my_help2hikiによるmemo，hiki，latexの関係||
+上図からも分かるように，本研究のmy_help2hikiでも，my_helpからlatexへ変換するには
+一度hikiに変換しなければlatexへ変換することができない．
+
+!!コマンド
+my_helpからhikiへの変換，hikiからlatexへの変換の操作を行うコマンドの
+二つを行わなければ全てのファイルを同じ内容にすることはできない．
+
+!!西谷研究室の内部サイトへの表示
+西谷研究室には内部サイトがあり，研究室内で使うシステムのマニュアルなどが公開されている．
+hiki形式への変換ができればwikiで表示することはできるようになるが，
+my_help2hikiのコマンドでwikiのページを作成しても，現段階では研究室内全員が見ることはできない．
