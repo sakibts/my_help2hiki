@@ -1,10 +1,11 @@
 {{toc}}
 !ユーザメモとwikiを連携するシステムの開発
 !!関西学院大学 理工学部 情報科学科 3550 西谷研究室 江本沙紀
+
 !!開発の背景
 *[[introduction|my_help2hiki_saki_introduction]]
 
-!!関連するシステムについて
+!!関連する先行研究
 !!!my_help
 *[[my_help|my_help2hiki_saki_my_help]]
 !!!hiki(wiki)
@@ -12,12 +13,21 @@
 !!!latex
 *[[latex|my_help2hiki_saki_latex]]
 !!!hikiutils
-*[[my_help2hiki_saki_hiki_sync]]
-
-!!メモ，wiki，latexの自動変換システム
-!!!my_help2hiki
-*[[my_help2hiki|my_help2hiki_saki_my_help2hiki]]
+*[[hiki_sync|my_help2hiki_saki_hiki_sync]]
 !!!hiki2latex
 *[[hiki2latex|my_help2hiki_saki_hiki2latex]]
-!!!my_help，wiki，latexの関連
-*[[my_help2hiki_saki_my_help_hiki_latex]]
+
+!!my_help，wiki，latexの自動変換システム
+!!!方法
+*[[method|my_help2hiki_saki_method]]
+!!!my_help2hiki
+*[[my_help2hiki|my_help2hiki_saki_my_help2hiki]]
+
+!!考察
+!!!利点
+*[[merit|my_help2hiki_saki_merit]]
+!!!欠点
+*[[demerit|my_help2hiki_saki_demerit]]
+
+!!今後の課題
+*[[task|my_help2hiki_saki_task]]

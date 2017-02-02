@@ -11,6 +11,8 @@
 しかし，定着するまでの間は一般的にメモという形で個人的な知識として扱われるのが普通である．
 一方で図書館やwebなどでは文書やhyper textとして誰もが読める形で保管，提供される．
 これらは形式知と呼ばれる．(図１ 暗黙知，形式知)
+||{{attach_view(my_help2hiki_saki.001.png,my_help2hiki_saki)}}||
+||\fig{my_help2hiki_saki.001} 暗黙知と形式知||
 
 暗黙知の形式知化はいくつも行われている．
 google検索でよく引っかかるQiita.comやcheatgraphy.comなどもそれらをまとめるサイトを提供している．
@@ -32,6 +34,6 @@ ruby開発者のまつもとゆきひろも指摘している{{fn'デザイン�
 本研究においては，図\ref{knowledge_controll_cui}に示した通り，西谷研で活用しているメモソフト
 my_help，wiki cloneのhiki, およびlatexの間を自動変換するシステムの開発を目的としている．
 
-||{{attach_view(knowledge_controll_cui.png,hiki2latex_saki)}}||
+||{{attach_view(knowledge_controll_cui.png,my_help2hiki_saki)}}||
 ||\fig{knowledge_controll_cui} 知識の分類と，それぞれに適合したシステムおよびフォーマット．||
 
