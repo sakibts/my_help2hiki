@@ -5,19 +5,12 @@
 *[[introduction|my_help2hiki_saki_introduction]]
 
 !!関連するシステムについて
-!!!my_help
-*[[my_help|my_help2hiki_saki_my_help]]
-!!!hiki(wiki)
-*[[hiki|my_help2hiki_saki_hiki]]
-!!!latex
-*[[latex|my_help2hiki_saki_latex]]
-!!!hikiutils
-*[[my_help2hiki_saki_hiki_sync]]
+!!![[my_help|my_help2hiki_saki_my_help]]
+!!![[hiki(wiki)|my_help2hiki_saki_hiki]]
+!!![[latex|my_help2hiki_saki_latex]]
+!!![[hikiutils|my_help2hiki_saki_hiki_sync]]
 
 !!メモ，wiki，latexの自動変換システム
-!!!my_help2hiki
-*[[my_help2hiki|my_help2hiki_saki_my_help2hiki]]
-!!!hiki2latex
-*[[hiki2latex|my_help2hiki_saki_hiki2latex]]
-!!!my_help，wiki，latexの関連
-*[[my_help2hiki_saki_my_help_hiki_latex]]
+!!![[my_help2hiki|my_help2hiki_saki_behavior]]
+!!![[hiki2latex|my_help2hiki_saki_hiki2latex]]
+!!![[my_help，wiki，latexの関連|my_help2hiki_saki_my_help_hiki_latex]]
