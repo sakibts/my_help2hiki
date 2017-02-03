@@ -1,16 +1,16 @@
-\subsubsection{my\_help2hikiとは}
+\section{my\_help2hikiとは}
 個々のユーザが独自のメモを作ることのできるgem，my\_helpを利用して作成した
 メモをwikiへ自動変換することで，個人のメモを互いに見れるようにし，
 研究室内で情報を共有する．
 
-\subsubsection{コマンド}\begin{description}
+\section{コマンド}\begin{description}
 \item[TARGET --push]  作成したメモ(TARGET)をサーバに送る
 
 \item[my\_help --hiki]  作成したメモをhiki形式に変換し，wikiで表示できるようにする．
 
 \end{description}
-\paragraph{コマンドの振る舞い}
-\paragraph{TARGET --push}\begin{quote}\begin{verbatim}
+\subsection{コマンドの振る舞い}
+\subsubsection{TARGET --push}\begin{quote}\begin{verbatim}
 date_dir = File.join(ENV['HOME'],'.my_help')
 FileUtils.cd(data_dir)
 system "rm -rf ~/.my_help/*.yml~"
@@ -91,7 +91,7 @@ sshでファイルやディレクトリをコピーするコマンドはcpでは
 nishitani0にssh接続し.my\_helpの中身を書き出して，
 コピーができているかコマンドを実行した時に確認が行えるようにしている．
 
-\paragraph{my\_help --hiki}\begin{quote}\begin{verbatim}
+\subsubsection{my\_help --hiki}\begin{quote}\begin{verbatim}
 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/text/emacs_help_saki"
 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/text/my_todo_saki"
 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/text/ssh_help_saki"
@@ -119,9 +119,9 @@ FrontPageは以下のようになっている．
 *[[emacs_help_saki]]
 \end{verbatim}\end{quote}
 先頭に\textbf{!}をつけることで1行目のsaki's helpを見出しにし，
-2~4行目は\textbf{*}によって箇条書き，各括弧でリンクになっている．
+2~4行目は\textbf{*}によって箇条書き，角括弧でリンクになっている．
 
-\paragraph{利便性}
+\subsection{利便性}
 メモを更新してから，上記の２つのコマンドを共に行うと，
 自分のmy\_helpにあるメモ，サーバのバックアップ，
 研究室内のメンバーが見ることのできるwikiの全てが同じ内容になる．
@@ -131,4 +131,19 @@ my\_helpのみを確認すればよく，管理が楽になる．
 gemの開発中や課題の途中にもすぐメモを残すことができるので，
 それぞれのユーザが得た暗黙知もすぐに形式知化することが可能になることが
 期待される．
+
+\begin{figure}[htbp]\begin{center}
+\includegraphics[width=6cm,bb=0 0 442 500]{../figs/./my_help2hiki_saki.002.png}
+\caption{}
+\label{default}\end{center}\end{figure}
+\begin{table}[htbp]\begin{center}
+\caption{}
+\begin{tabular}{ll}
+\hline
+\fig{my\_help2hiki\_saki.002} コマンドを実行したときに開くFrontPage  \\ \hline
+\hline
+\end{tabular}
+\label{default}
+\end{center}\end{table}
+%for inserting separate lines, use \hline, \cline{2-3} etc.
 

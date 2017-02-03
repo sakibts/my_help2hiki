@@ -1,0 +1,34 @@
+!!従来のmemo，latex，hiki
+!!!caption: memo，latex，hikiの比較
+{{attach_view(my_help2hiki_saki.003.png,my_help2hiki_saki)}}
+
+!!!my_help
+my_helpは，メモを作るためのgem．
+ユーザがターミナルを利用して作成し，閲覧する．
+メモの書式はyaml形式で，拡張子は.ymlを使用している．
+
+!!!wiki
+miというmacのテキストエディタを用いて作成する．
+作成したファイルはMac OSのブラウザのsafariで開くことができる．
+hiki形式で記述し，webを通して誰でも見られるようにできる．
+
+!!!latex
+TeXの書式で，TeX編集用エディタのTeXShopによって作成する．
+pdfは一般的に使われている電子ファイルで，印刷して卒業論文の
+ハードコピーとしても使われる．
+
+----
+
+このようにmy_help，wiki，latexは書式や作成，閲覧方法が全て違う．
+目的も異なるので，同じ内容のファイルをそれぞれの書式で書かなければならないことがある．
+
+!!!caption: hiki2latex
+{{attach_view(my_help2hiki_saki.004.png,my_help2hiki_saki)}}
+
+hiki2latexの開発により上図のようにwikiとlatexの変換はできるようになったが，
+my_helpとwiki，my_helpとlatexは関連させることができなかった．
+本研究により，my_help，wiki，latexを関連させるため，
+my_helpからwikiへ自動変換を行うシステムmy_help2hikiの開発を目指す．
+
+!!!caption:my_help2hiki
+{{attach_view(my_help2hiki_saki.005.png,my_help2hiki_saki)}}

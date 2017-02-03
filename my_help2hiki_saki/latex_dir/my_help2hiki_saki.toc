@@ -1,30 +1,32 @@
 \contentsline {section}{\numberline {1}ユーザメモとwikiを連携するシステムの開発}{3}
 \contentsline {subsection}{\numberline {1.1}関西学院大学 理工学部 情報科学科 3550 西谷研究室 江本沙紀}{3}
-\contentsline {subsection}{\numberline {1.2}開発の背景}{3}
-\contentsline {subsection}{\numberline {1.3}関連するシステムについて}{3}
-\contentsline {paragraph}{ユーザ独自のhelpを作成するgem}{4}
-\contentsline {paragraph}{gemとは}{4}
-\contentsline {paragraph}{gemのメリット}{4}
-\contentsline {paragraph}{my\_helpとは}{4}
-\contentsline {paragraph}{my\_helpを研究室内で利用する利点}{4}
-\contentsline {paragraph}{hikiとは}{6}
-\contentsline {paragraph}{TeXとは}{7}
-\contentsline {paragraph}{TeXの特徴}{7}
-\contentsline {paragraph}{latexとは}{7}
-\contentsline {paragraph}{gem中のhikisからhikiへの自動変換}{8}
-\contentsline {paragraph}{使用法，コマンド}{8}
-\contentsline {paragraph}{同期に関する制約}{8}
-\contentsline {paragraph}{テキスト}{8}
-\contentsline {subsection}{\numberline {1.4}メモ，wiki，latexの自動変換システム}{10}
-\contentsline {subsubsection}{\numberline {1.4.1}my\_help2hikiとは}{11}
-\contentsline {subsubsection}{\numberline {1.4.2}コマンド}{11}
-\contentsline {paragraph}{コマンドの振る舞い}{11}
-\contentsline {paragraph}{TARGET --push}{11}
-\contentsline {paragraph}{my\_help --hiki}{13}
-\contentsline {paragraph}{利便性}{14}
-\contentsline {paragraph}{hiki形式で書かれた文章をlatex形式に自動変換する}{15}
-\contentsline {paragraph}{使用法，コマンド}{15}
-\contentsline {paragraph}{gem中のhikisからhikiへの自動変換}{15}
-\contentsline {paragraph}{使用法，コマンド}{15}
-\contentsline {paragraph}{同期に関する制約}{16}
-\contentsline {paragraph}{テキスト}{16}
+\contentsline {section}{\numberline {2}関連する先行研究}{6}
+\contentsline {subsubsection}{\numberline {2.0.1}ユーザ独自のhelpを作成するgem}{7}
+\contentsline {paragraph}{gemとは}{7}
+\contentsline {paragraph}{gemの利点}{7}
+\contentsline {paragraph}{my\_helpとは}{7}
+\contentsline {paragraph}{my\_helpを研究室内で利用する利点}{7}
+\contentsline {subsubsection}{\numberline {2.0.2}hikiとは}{9}
+\contentsline {subsubsection}{\numberline {2.0.3}TeXとは}{10}
+\contentsline {subsubsection}{\numberline {2.0.4}TeXの特徴}{10}
+\contentsline {subsubsection}{\numberline {2.0.5}latexとは}{10}
+\contentsline {subsubsection}{\numberline {2.0.6}gem中のhikisからhikiへの自動変換}{11}
+\contentsline {paragraph}{使用法，コマンド}{11}
+\contentsline {paragraph}{同期に関する制約}{11}
+\contentsline {paragraph}{テキスト}{11}
+\contentsline {subsubsection}{\numberline {2.0.7}hiki形式で書かれた文章をlatex形式に自動変換する}{13}
+\contentsline {paragraph}{コマンド}{13}
+\contentsline {paragraph}{使用例}{13}
+\contentsline {section}{\numberline {3}my\_help，wiki，latexの自動変換システム}{16}
+\contentsline {subsection}{\numberline {3.1}従来のmemo，latex，hiki}{17}
+\contentsline {subsubsection}{\numberline {3.1.1}my\_help}{17}
+\contentsline {subsubsection}{\numberline {3.1.2}wiki}{17}
+\contentsline {subsubsection}{\numberline {3.1.3}latex}{17}
+\contentsline {section}{\numberline {4}考察}{20}
+\contentsline {subsubsection}{\numberline {4.0.1}情報共有}{21}
+\contentsline {subsubsection}{\numberline {4.0.2}memo，hiki，latexの自動変換}{21}
+\contentsline {subsubsection}{\numberline {4.0.3}暗黙知の形式知化}{22}
+\contentsline {subsubsection}{\numberline {4.0.4}書き方が細かく定められている}{23}
+\contentsline {subsubsection}{\numberline {4.0.5}my\_helpからlatexへの変換}{24}
+\contentsline {subsubsection}{\numberline {4.0.6}コマンド}{24}
+\contentsline {subsubsection}{\numberline {4.0.7}西谷研究室の内部サイトへの表示}{25}
