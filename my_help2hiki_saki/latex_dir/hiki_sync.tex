@@ -1,15 +1,15 @@
-\paragraph{gem中のhikisからhikiへの自動変換}
+\subsubsection{gem中のhikisからhikiへの自動変換}
 rubyのライブラリーパッケージの標準となるgemのdirectory構造にhikisというdirectoryを作って文書作成している．hiki --initializeでこのなかのhikidocファイルをウェブ上のhikiと同期する機能を提供する．
 これによって，gem/hikisで作成した文書は，githubあるいはrubygems.orgを通じて共有可能となる．
 以下にこの同期をスムーズに行うための幾つかのconventionを使用法とともにまとめている．
 
 \paragraph{使用法，コマンド}
 \begin{itemize}
-\item hiki --initializeで必要なファイル(Rakefile, ./.hikirc, hiki\_help.yml)がcopyされる
-\item hiki\_help.ymlは適宜~/.my\_helpにcopyしてhiki\_helpとして利用\verb|my_help参照(MyHelp_install)|
-\item rake syncによってhikiディレクトリーと同期が取られる
-\item rake convert 20 TARGET.pngによって，figs/TAERGET.pngに20%縮小して保存される
-\item hiki -u TARGETによってブラウザー表示される
+\item hiki --initialize : 必要なファイル(Rakefile, ./.hikirc, hiki\_help.yml)がcopyされる
+\item hiki\_help.yml : 適宜~/.my\_helpにcopyしてhiki\_helpとして利用\verb|my_help参照(MyHelp_install)|
+\item rake sync : hikiディレクトリーと同期が取られる
+\item rake convert 20 TARGET.png : figs/TAERGET.pngに20%縮小して保存される
+\item hiki -u TARGET : ブラウザー表示される
 \end{itemize}
 \paragraph{同期に関する制約}
 \begin{itemize}

@@ -1,8 +1,5 @@
 !!hiki形式で書かれた文章をlatex形式に自動変換する
-!!!使用法，コマンド
-* hiki2latex -v : hiki2latexのversion表示
-* hiki2latex -p FILE : latexの一般的なフォーマットへ変換
-* hiki2latex -b FILE : 
+!!!コマンド
 <<<
 Usage: hiki2latex [options] FILE
     -v, --version                    show program Version.
@@ -14,32 +11,68 @@ Usage: hiki2latex [options] FILE
         --post FILE                  put post file.
         --listings                   use listings.sty for preformat with style.
 >>>
+上記のようなコマンドがある．
 
-!!gem中のhikisからhikiへの自動変換
-rubyのライブラリーパッケージの標準となるgemのdirectory構造にhikisというdirectoryを作って文書作成している．hiki --initializeでこのなかのhikidocファイルをウェブ上のhikiと同期する機能を提供する．
-これによって，gem/hikisで作成した文書は，githubあるいはrubygems.orgを通じて共有可能となる．
-以下にこの同期をスムーズに行うための幾つかのconventionを使用法とともにまとめている．
-!!!使用法，コマンド
-* hiki --initializeで必要なファイル(Rakefile, ./.hikirc, hiki_help.yml)がcopyされる
-* hiki_help.ymlは適宜~/.my_helpにcopyしてhiki_helpとして利用[[my_help参照|MyHelp_install]]
-* rake syncによってhikiディレクトリーと同期が取られる
-* rake convert 20 TARGET.pngによって，figs/TAERGET.pngに20%縮小して保存される
-* hiki -u TARGETによってブラウザー表示される
-!!!同期に関する制約
-* hikiはフラットなdirectory構造を取っている
-* hikiの文書はスネーク表記(例えば，latex2hiki_saki)で階層構造に似せている
-* hikiのurlの接頭語となる名前をbasenameのdirectory名とする．
-* directory名が'hikis'である場合はその親directory名となる．
-* ~/.hikircのtarget directoryを同期先のdirectoryとする．
-* ~/.hikircがない場合は同期先のdirectoryを聞く．
-* それらは./.hikircに保存される
-!!!テキスト
-* テキストの拡張子は'.hiki'としている
-* hikiでのurlはテキスト前とディレクトリーから自動生成される
-* 例えば，hiki2latex_saki/introduciton.hikiとするとhiki2latex_saki_introducitonと変換される
-* attach_anchorでは
- '{{attach_anchor(test.png, hiki2latex_saki)}}'
-と，directory指定しなければならない.
+!!!使用例
+*hiki2latex -v
+hiki2latexのversionを表示する．
+実行例
+<<<
+/Users/saki% hiki2latex -v
+hiki2latex 0.9.12
+>>>
+*hiki2latex -p
+hiki形式のsample，hiki2latex_sample.hikiを例とする．
+<<<
+/Users/saki/my_help2hiki/my_help2hiki_saki% cat hiki2latex_sample.hiki 
+!title1
+!!subtitle1.1
+*list1
+*list2
+!!subtitle1.2
+*list1
 
-my_help2hiki_saki_hiki_syncのコピー
-書き換えていく
+!title2
+>>>
+コマンドを実行すると以下のようになる．
+<<<
+/Users/saki/my_help2hiki/my_help2hiki_saki% hiki2latex -p hiki2latex_sample.hiki
+\documentclass[12pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\begin{document}
+\section{title1}
+\subsection{subtitle1.1}\begin{itemize}
+\item list1
+\item list2
+\end{itemize}
+\subsection{subtitle1.2}\begin{itemize}
+\item list1
+\end{itemize}
+\section{title2}
+\end{document}
+>>>
+このコマンドにより，hiki形式の雛形が生成されていることが分かる．
+
+*hiki2latex -b
+hiki2latex_sample.hikiを例とするコマンド実行例
+<<<
+/Users/saki/my_help2hiki/my_help2hiki_saki% hiki2latex -b hiki2latex_sample.hiki
+\section{title1}
+\subsection{subtitle1.1}\begin{itemize}
+\item list1
+\item list2
+\end{itemize}
+\subsection{subtitle1.2}\begin{itemize}
+\item list1
+\end{itemize}
+\section{title2}
+>>>
+上記の間に記述された部分のみを生成する．
+同じファイルの中に，複数のlatexのファイルを含んでいるときに
+個別でファイル作成をするときに便利．
+
+*hiki2latex --head : タイトル，著者を記述するときのフォーマットを挿入する．
+*hiki2latex --pre : 文字の前の空白などを入れる．
+*hiki2latex --post
+
+上記3つは全てフォーマットを標準と違うものにするためのコマンド．
