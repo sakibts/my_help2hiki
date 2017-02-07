@@ -1,116 +1,107 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.1.26)  7 FEB 2017 13:47
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  7 FEB 2017 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**my_help2hiki_saki_2.tex
+**my_help2hiki_saki_2
 (./my_help2hiki_saki_2.tex
-pLaTeX2e <2016/11/29> (based on LaTeX2e <2017/01/01>)
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jsarticle.cls
-Document Class: jsarticle 2017/01/13 okumura, texjporg
-\jsc@mpt=\dimen118
-\jsc@mmm=\dimen119
-\jsc@smallskipamount=\skip41
-LaTeX Info: Redefining \rmfamily on input line 468.
-LaTeX Info: Redefining \sffamily on input line 471.
-LaTeX Info: Redefining \ttfamily on input line 474.
-LaTeX Info: Redefining \textmc on input line 477.
-LaTeX Info: Redefining \textgt on input line 479.
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2014/02/07 okumura
+LaTeX Info: Redefining \rmfamily on input line 352.
+LaTeX Info: Redefining \sffamily on input line 355.
+LaTeX Info: Redefining \ttfamily on input line 358.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 540.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 423.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 731.
+(Font)              scaled to size 9.60999pt on input line 613.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 731.
-\fullwidth=\dimen120
+(Font)              scaled to size 9.60999pt on input line 613.
+\fullwidth=\dimen118
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 883.
+(Font)              scaled to size 7.68799pt on input line 760.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 883.
-\c@part=\count82
-\c@section=\count83
-\c@subsection=\count84
-\c@subsubsection=\count85
-\c@paragraph=\count86
-\c@subparagraph=\count87
+(Font)              scaled to size 7.68799pt on input line 760.
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
 \@abstractbox=\box41
-\c@figure=\count88
-\c@table=\count89
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\jsc@tocl@width=\dimen121
-\@lnumwidth=\dimen122
-\bibindent=\dimen123
-(/usr/local/texlive/2016/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2016/07/14 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 94.
-LaTeX Info: Redefining \LaTeX on input line 147.
-LaTeX Info: Redefining \LaTeXe on input line 200.
-)
-\heisei=\count90
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\js@tocl@width=\dimen119
+\@lnumwidth=\dimen120
+\bibindent=\dimen121
+LaTeX Info: Redefining \TeX on input line 1731.
+LaTeX Info: Redefining \LaTeX on input line 1757.
+LaTeX Info: Redefining \LaTeXe on input line 1782.
+\heisei=\count89
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+Package graphics Info: Driver file: dvipdfmx.def on input line 91.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
-3/ChoF)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2014/04/28 v4.01 LaTeX color/graphics driver for dvipdfmx (T
+eX Live/ChoF)
 ))
-\Gin@req@height=\dimen124
-\Gin@req@width=\dimen125
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvipdfmx.def on input line 147.
+Package color Info: Driver file: dvipdfmx.def on input line 137.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count91
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
 \lst@gtempboxa=\box42
 \lst@token=\toks16
-\lst@length=\count92
-\lst@currlwidth=\dimen126
-\lst@column=\count93
-\lst@pos=\count94
-\lst@lostspace=\dimen127
-\lst@width=\dimen128
-\lst@newlines=\count95
-\lst@lineno=\count96
-\lst@maxwidth=\dimen129
+\lst@length=\count91
+\lst@currlwidth=\dimen124
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen127
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count97
-\lst@skipnumbers=\count98
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
 \lst@framebox=\box43
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
 (./my_help2hiki_saki_2.aux (./introduction_2.aux
 
@@ -155,7 +146,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-\c@lstlisting=\count99
+\c@lstlisting=\count98
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -220,29 +211,29 @@ File: my_help2hiki_saki.011.png Graphic file (type eps)
 
 (./my_help_2.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 2.
+(Font)              scaled to size 11.53198pt on input line 5.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 2.
+(Font)              scaled to size 11.53198pt on input line 5.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
 
-Overfull \hbox (35.86244pt too wide) in paragraph at lines 38--38
+Overfull \hbox (35.86244pt too wide) in paragraph at lines 35--35
  []    \OT1/cmtt/m/n/10 -i, --init NAME                  initialize NAME help(e
 g test_help).[] 
  []
 
 
-Overfull \hbox (14.86263pt too wide) in paragraph at lines 38--38
+Overfull \hbox (14.86263pt too wide) in paragraph at lines 35--35
  []    \OT1/cmtt/m/n/10 -m, --make                       make executables for a
 ll helps.[] 
  []
 
 
-Overfull \hbox (9.61267pt too wide) in paragraph at lines 38--38
+Overfull \hbox (9.61267pt too wide) in paragraph at lines 35--35
  []        \OT1/cmtt/m/n/10 --install_local              install local after ed
 it helps[] 
  []
@@ -250,12 +241,12 @@ it helps[]
 [5
 
 
-] [6]) [7]
+]) [6]
 \openout2 = `behavior_2.aux'.
 
  (./behavior_2.tex
 File: my_help2hiki_saki.010.png Graphic file (type eps)
- <my_help2hiki_saki.010.png> [8
+ <my_help2hiki_saki.010.png> [7
 
 
 ]
@@ -270,7 +261,7 @@ Overfull \hbox (156.61139pt too wide) in paragraph at lines 210--210
 \n" } if @help_cont[:license] != nil[] 
  []
 
-[9]
+[8]
 Overfull \hbox (30.61249pt too wide) in paragraph at lines 210--210
  []          \OT1/cmtt/m/n/10 opt.on(opts[:short],opts[:long],opts[:desc]) {dis
 p_help(key)}[] 
@@ -306,13 +297,13 @@ Overfull \hbox (9.61267pt too wide) in paragraph at lines 210--210
 kup_size[] 
  []
 
-[10]
+[9]
 Overfull \hbox (25.36253pt too wide) in paragraph at lines 210--210
  []        \OT1/cmtt/m/n/10 print "No #{item} in this help.  The items are foll
 owing...\n"[] 
  []
 
-[11]
+[10]
 Overfull \hbox (25.36253pt too wide) in paragraph at lines 210--210
  []      \OT1/cmtt/m/n/10 File.open(backup,'w'){|file| file.print(YAML.dump(bac
 kup_cont))}[] 
@@ -336,13 +327,13 @@ Overfull \hbox (46.36235pt too wide) in paragraph at lines 210--210
 mp(@help_cont)}[] 
  []
 
-[12] [13]
+[11] [12]
 Overfull \hbox (30.61249pt too wide) in paragraph at lines 210--210
  []      \OT1/cmtt/m/n/10 lines.each{|line| puts CodeRay.scan("+#{line}", :Task
 paper).term}[] 
  []
 
-[14]
+[13]
 Overfull \hbox (62.11221pt too wide) in paragraph at lines 390--390
  []      \OT1/cmtt/m/n/10 @default_help_dir = File.expand_path("../../lib/daddy
 gongon", __FILE__)[] 
@@ -366,7 +357,7 @@ Overfull \hbox (198.61102pt too wide) in paragraph at lines 390--390
 elp(eg test_help).'){|file| init_help(file)}[] 
  []
 
-[15]
+[14]
 Overfull \hbox (56.86226pt too wide) in paragraph at lines 390--390
  []        \OT1/cmtt/m/n/10 opt.on('-m', '--make', 'make executables for all he
 lps.'){make_help}[] 
@@ -396,7 +387,7 @@ Overfull \hbox (35.86244pt too wide) in paragraph at lines 390--390
 R_INST_DIR}'"[] 
  []
 
-[16]
+[15]
 Overfull \hbox (20.11258pt too wide) in paragraph at lines 390--390
  []        \OT1/cmtt/m/n/10 status, stdout, stderr = systemu "gem env|grep '#{I
 NST_DIR}'"[] 
@@ -420,7 +411,7 @@ Overfull \hbox (4.36272pt too wide) in paragraph at lines 390--390
 RGV)\n"[] 
  []
 
-[17]
+[16]
 Overfull \hbox (30.61249pt too wide) in paragraph at lines 390--390
  []        \OT1/cmtt/m/n/10 next if ['emacs_help','e_h','my_help','my_todo'].in
 clude?(file)[] 
@@ -432,7 +423,7 @@ Overfull \hbox (9.61267pt too wide) in paragraph at lines 390--390
 lp.yml')[] 
  []
 
-[18]
+[17]
 Overfull \hbox (77.86208pt too wide) in paragraph at lines 390--390
  []      \OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/
 text/emacs_help_saki"[] 
@@ -456,9 +447,9 @@ Overfull \hbox (46.36235pt too wide) in paragraph at lines 390--390
 .0/?FrontPage'"[] 
  []
 
-[19]
+[18]
 File: my_help2hiki_saki.012.png Graphic file (type eps)
- <my_help2hiki_saki.012.png> [20]
+ <my_help2hiki_saki.012.png> [19]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 434.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -492,30 +483,30 @@ Overfull \hbox (46.36235pt too wide) in paragraph at lines 472--472
 .0/?FrontPage'"[] 
  []
 
-[21]
+[20]
 File: my_help2hiki_saki.002.png Graphic file (type eps)
- <my_help2hiki_saki.002.png>) [22] [23]
+ <my_help2hiki_saki.002.png>) [21] [22]
 \openout2 = `template_2.aux'.
 
  (./template_2.tex
 File: my_help2hiki_saki.008.png Graphic file (type eps)
 
-<my_help2hiki_saki.008.png> [24
+<my_help2hiki_saki.008.png> [23
 
 
 ]
 File: my_help2hiki_saki.009.png Graphic file (type eps)
- <my_help2hiki_saki.009.png> [25]) [26]
+ <my_help2hiki_saki.009.png> [24]) [25]
 \openout2 = `merit_2.aux'.
 
 
-(./merit_2.tex [27
+(./merit_2.tex [26
 
 
-] [28]) [29]
+] [27]) [28]
 \openout2 = `task_2.aux'.
 
- (./task_2.tex) [30
+ (./task_2.tex) [29
 
 
 ]
@@ -527,7 +518,7 @@ Underfull \hbox (badness 2460) in paragraph at lines 4--5
  ッケ ージ管理ツ ール 『\OT1/cmr/m/n/10 gem\JY1/mc/m/n/10 』 を徹底解
  []
 
-) [31
+) [30
 
 
 ] (./my_help2hiki_saki_2.aux (./introduction_2.aux) (./my_help_2.aux)
@@ -538,12 +529,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2319 strings out of 493683
- 32366 string characters out of 6149653
- 94866 words of memory out of 5000000
- 5848 multiletter control sequences out of 15000+600000
- 15343 words of font info for 69 fonts, out of 8000000 for 9000
+ 2241 strings out of 493807
+ 31257 string characters out of 6151950
+ 92408 words of memory out of 5000000
+ 5671 multiletter control sequences out of 15000+600000
+ 15351 words of font info for 69 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 26i,6n,32p,238b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,6n,32p,223b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on my_help2hiki_saki_2.dvi (31 pages, 48840 bytes).
+Output written on my_help2hiki_saki_2.dvi (30 pages, 46404 bytes).

@@ -1,0 +1,441 @@
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  7 FEB 2017 13:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**my_help2hiki_saki
+(./my_help2hiki_saki.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2014/02/07 okumura
+LaTeX Info: Redefining \rmfamily on input line 352.
+LaTeX Info: Redefining \sffamily on input line 355.
+LaTeX Info: Redefining \ttfamily on input line 358.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 423.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 613.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 613.
+\fullwidth=\dimen118
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 760.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 760.
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\@abstractbox=\box41
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\js@tocl@width=\dimen119
+\@lnumwidth=\dimen120
+\bibindent=\dimen121
+LaTeX Info: Redefining \TeX on input line 1731.
+LaTeX Info: Redefining \LaTeX on input line 1757.
+LaTeX Info: Redefining \LaTeXe on input line 1782.
+\heisei=\count89
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2014/04/28 v4.01 LaTeX color/graphics driver for dvipdfmx (T
+eX Live/ChoF)
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvipdfmx.def on input line 137.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box42
+\lst@token=\toks16
+\lst@length=\count91
+\lst@currlwidth=\dimen124
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen127
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box43
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(./my_help2hiki_saki.aux (./introduction.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+) (./my_help.aux) (./hiki.aux) (./latex.aux) (./hiki_sync.aux)
+(./hiki2latex.aux) (./method.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+
+LaTeX Warning: Label `default' multiply defined.
+
+) (./my_help2hiki.aux) (./merit.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+) (./demerit.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+) (./task.aux))
+\openout1 = `my_help2hiki_saki.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+\c@lstlisting=\count98
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 45.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 45.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 47.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 47.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 47.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 47.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 47.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 47.
+ (./my_help2hiki_saki.toc [1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+ [2])
+\tf@toc=\write3
+\openout3 = `my_help2hiki_saki.toc'.
+
+ (./my_help2hiki_saki.toc)
+\tf@toc=\write4
+\openout4 = `my_help2hiki_saki.toc'.
+
+
+[3]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
+File: ../figs/./my_help2hiki_saki.001.png Graphic file (type eps)
+ <../figs/./my_help2hiki_saki.001.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 17.
+ [4
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+File: ../figs/./knowledge_controll_cui.png Graphic file (type bmp)
+
+<../figs/./knowledge_controll_cui.png>) [5] [6
+
+]
+\openout2 = `my_help.aux'.
+
+ (./my_help.tex
+Overfull \hbox (35.86244pt too wide) in paragraph at lines 30--30
+ []    \OT1/cmtt/m/n/10 -i, --init NAME                  initialize NAME help(e
+g test_help).[] 
+ []
+
+
+Overfull \hbox (14.86263pt too wide) in paragraph at lines 30--30
+ []    \OT1/cmtt/m/n/10 -m, --make                       make executables for a
+ll helps.[] 
+ []
+
+
+Overfull \hbox (9.61267pt too wide) in paragraph at lines 30--30
+ []        \OT1/cmtt/m/n/10 --install_local              install local after ed
+it helps[] 
+ []
+
+
+Overfull \hbox (43.73613pt too wide) in paragraph at lines 38--39
+\JY1/mc/m/n/10 書きたいときにすぐに書くことができる ． 考文献 \OT1/cmr/m/n/10 (
+\OT1/cmtt/m/n/10 https://blog.codecamp.jp/rails-gem
+ []
+
+[7
+
+]) [8]
+\openout2 = `hiki.aux'.
+
+ (./hiki.tex
+Overfull \hbox (0.12128pt too wide) in paragraph at lines 2--9
+[]\OT1/cmr/m/n/10 Ruby \JY1/mc/m/n/10 で書かれた高機能 ・ 高速 \OT1/cmr/m/n/10 
+Wiki \JY1/mc/m/n/10 クロ ーン ． 参考文献 \OT1/cmr/m/n/10 3(\OT1/cmtt/m/n/10 ht
+tp://hikiwiki.org/ja/
+ []
+
+) [9
+
+
+]
+\openout2 = `latex.aux'.
+
+ (./latex.tex) [10
+
+
+]
+\openout2 = `hiki_sync.aux'.
+
+ (./hiki_sync.tex [11
+
+
+]) [12]
+\openout2 = `hiki2latex.aux'.
+
+ (./hiki2latex.tex
+Overfull \hbox (4.36272pt too wide) in paragraph at lines 12--12
+ []    \OT1/cmtt/m/n/10 -l, --level VALUE                set Level for output s
+ection.[] 
+ []
+
+
+Overfull \hbox (9.61267pt too wide) in paragraph at lines 12--12
+ []        \OT1/cmtt/m/n/10 --head FILE                  put headers of maketit
+le file.[] 
+ []
+
+
+Overfull \hbox (72.61212pt too wide) in paragraph at lines 12--12
+ []        \OT1/cmtt/m/n/10 --listings                   use listings.sty for p
+reformat with style.[] 
+ []
+
+
+Overfull \hbox (25.36253pt too wide) in paragraph at lines 39--39
+ []\OT1/cmtt/m/n/10 /Users/saki/my_help2hiki/my_help2hiki_saki% cat hiki2latex_
+sample.hiki[] 
+ []
+
+[13
+
+
+]
+Overfull \hbox (77.86208pt too wide) in paragraph at lines 56--56
+ []\OT1/cmtt/m/n/10 /Users/saki/my_help2hiki/my_help2hiki_saki% hiki2latex -p h
+iki2latex_sample.hiki[] 
+ []
+
+
+Overfull \hbox (77.86208pt too wide) in paragraph at lines 74--74
+ []\OT1/cmtt/m/n/10 /Users/saki/my_help2hiki/my_help2hiki_saki% hiki2latex -b h
+iki2latex_sample.hiki[] 
+ []
+
+[14]) [15] [16
+
+]
+\openout2 = `method.aux'.
+
+ (./method.tex
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 1.
+File: ../figs/./my_help2hiki_saki.003.png Graphic file (type eps)
+ <../figs/./my_help2hiki_saki.003.png>
+File: ../figs/./my_help2hiki_saki.004.png Graphic file (type eps)
+
+<../figs/./my_help2hiki_saki.004.png> [17
+
+]
+File: ../figs/./my_help2hiki_saki.005.png Graphic file (type eps)
+
+<../figs/./my_help2hiki_saki.005.png>) [18]
+\openout2 = `my_help2hiki.aux'.
+
+
+No file my_help2hiki.tex.
+[19
+
+
+
+]
+\openout2 = `merit.aux'.
+
+ (./merit.tex
+File: ../figs/./my_help2hiki_saki.006.png Graphic file (type eps)
+ <../figs/./my_help2hiki_saki.006.png> [20
+
+]) [21]
+\openout2 = `demerit.aux'.
+
+
+(./demerit.tex [22
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 43.
+
+Overfull \hbox (697.35667pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/
+lib/ruby/2.0.0/psych.rb:205:in `parse': (<unknown>): mapping values are not all
+owed in this context at line 8 column 9 (Psych::SyntaxError)[] 
+ []
+
+
+Overfull \hbox (230.11075pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /System/Library/Frameworks/Ruby.framework/Versions/2.0
+/usr/lib/ruby/2.0.0/psych.rb:205:in `parse_stream'[] 
+ []
+
+
+Overfull \hbox (193.36107pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /System/Library/Frameworks/Ruby.framework/Versions/2.0
+/usr/lib/ruby/2.0.0/psych.rb:153:in `parse'[] 
+ []
+
+
+Overfull \hbox (188.11111pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /System/Library/Frameworks/Ruby.framework/Versions/2.0
+/usr/lib/ruby/2.0.0/psych.rb:129:in `load'[] 
+ []
+
+
+Overfull \hbox (119.86171pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /Library/Ruby/Gems/2.0.0/gems/my_help-0.4.3/lib/specif
+ic_help.rb:17:in `initialize'[] 
+ []
+
+
+Overfull \hbox (83.11203pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /Library/Ruby/Gems/2.0.0/gems/my_help-0.4.3/lib/specif
+ic_help.rb:12:in `new'[] 
+ []
+
+
+Overfull \hbox (83.11203pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /Library/Ruby/Gems/2.0.0/gems/my_help-0.4.3/lib/specif
+ic_help.rb:12:in `run'[] 
+ []
+
+
+Overfull \hbox (114.61176pt too wide) in paragraph at lines 57--57
+ []\OT1/cmtt/m/n/10 from /Library/Ruby/Gems/2.0.0/gems/my_help-0.4.3/exe/emacs_
+help:4:in `<top (required)>'[] 
+ []
+
+File: ../figs/./my_help2hiki_saki.007.png Graphic file (type eps)
+<../figs/./my_help2hiki_saki.007.png> [23]) [24]
+\openout2 = `task.aux'.
+
+ (./task.tex) [25
+
+
+]
+(./my_help2hiki_saki.aux (./introduction.aux) (./my_help.aux) (./hiki.aux)
+(./latex.aux) (./hiki_sync.aux) (./hiki2latex.aux) (./method.aux)
+(./my_help2hiki.aux) (./merit.aux) (./demerit.aux) (./task.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2264 strings out of 493807
+ 31467 string characters out of 6151950
+ 94471 words of memory out of 5000000
+ 5667 multiletter control sequences out of 15000+600000
+ 15351 words of font info for 69 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 26i,6n,32p,236b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on my_help2hiki_saki.dvi (25 pages, 44632 bytes).
