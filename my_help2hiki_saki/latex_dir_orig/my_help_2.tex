@@ -1,29 +1,26 @@
-\section{関連する先行研究}
-\subsection{my\_help}
-西谷研究室で使用しているユーザ独自のメモを作成するgem．
+\section{関連するソフトの振る舞い}
+本章では，対象とするソフトはあまり一般に普及しているものではないため，
+最初にソフト(my\_helpおよびhiki)の特徴と簡単な振る舞いを紹介する．
 
-\paragraph{gemとは}
-\begin{description}
-\item 正式名称はRubyGems．
+\subsection{my\_help}
+my\_helpは西谷研究室で使用しているユーザ独自のメモを作成するgemである．
+
+gemは正式名称をRubyGemsといい，
 Ruby用のライブラリを使う時に必要となるソフトウェアのこと\cite{c}．
 パッケージ管理ツールgemがあることで，Ruby用ライブラリの
 インストール，アンインストール，バージョン管理などを簡単に
 行うことができる．
 プログラミング言語Rubyのファイルに付属されていて，
 無料で利用することができる．
-\end{description}
 
-\paragraph{gemの利点}
+gemの利点は次の通りである。
 \begin{itemize}
 \item 標準化された構造があるので，初めてみた人でも分かるようになっている．
 \item gemがあることで，簡単にRuby用ライブラリをインストールでき，初心者でもアプリ機能を装備できる．
 \item 誰でも作成，配布が可能である．
 \end{itemize}
 
-\paragraph{コマンド}
-\begin{description}
-\item 
-\end{description}
+my\_helpが提供するコマンドとその振る舞いをhelp表示から示す．
 \begin{quote}\begin{verbatim}
 Usage: my_help [options]
     -v, --version                    show program Version.
@@ -36,8 +33,11 @@ Usage: my_help [options]
         --delete NAME                delete NAME help
         --hiki                       my_help2hiki
 \end{verbatim}\end{quote}
+my\_helpではhelpの要素をこのhelp表示と同じ構造，項目と対応する記述で表示される．
+それぞれの項目はまとまりをつくり，それを-lでリスト表示される．
+--versionおよび--listはgem標準に準拠するために用意されている．
 
-\paragraph{my\_helpを研究室内で利用する利点}
+my\_helpを研究室内で利用する利点は次の通りである．
 \begin{itemize}
 \item 研究室内でのメモの書き方が統一できる．
 \item どこにメモをしたか忘れることがない．
@@ -51,38 +51,3 @@ CGI(Commond Gateway Interface)を利用して，Webサーバと連動して動�
 研究室内での情報共有やgemの使い方などを掲載して閲覧できるようにしている．
 また，卒業論文の作成にもhikiの形式で作成している．
 
-\subsection{hikiutils}
-gem中のhikisからhikiへの自動変換をする．
-rubyのライブラリーパッケージの標準となるgemのdirectory構造にhikisというdirectoryを作って文書作成している．hiki --initializeでこのなかのhikidocファイルをウェブ上のhikiと同期する機能を提供する．
-これによって，gem/hikisで作成した文書は，githubあるいはrubygems.orgを通じて共有可能となる．
-以下にこの同期をスムーズに行うための幾つかのconventionを使用法とともにまとめている．
-
-\paragraph{使用法，コマンド}
-\begin{itemize}
-\item hiki --initialize : 必要なファイル(Rakefile, ./.hikirc, hiki\_help.yml)がcopyされる
-\item hiki\_help.yml : 適宜~/.my\_helpにcopyしてhiki\_helpとして利用\verb|my_help参照(MyHelp_install)|
-\item rake sync : hikiディレクトリーと同期が取られる
-\item rake convert 20 TARGET.png : figs/TAERGET.pngに20\%縮小して保存される
-\item hiki -u TARGET : ブラウザー表示される
-\end{itemize}
-
-\paragraph{同期に関する制約}
-\begin{itemize}
-\item hikiはフラットなdirectory構造を取っている
-\item hikiの文書はスネーク表記(例えば，latex2hiki\_saki)で階層構造に似せている
-\item hikiのurlの接頭語となる名前をbasenameのdirectory名とする．
-\item directory名が'hikis'である場合はその親directory名となる．
-\item ~/.hikircのtarget directoryを同期先のdirectoryとする．
-\item ~/.hikircがない場合は同期先のdirectoryを聞く．
-\item それらは./.hikircに保存される
-\end{itemize}
-\paragraph{テキスト}
-\begin{itemize}
-\item テキストの拡張子は'.hiki'としている
-\item hikiでのurlはテキスト前とディレクトリーから自動生成される
-\item 例えば，hiki2latex\_saki/introduciton.hikiとするとhiki2latex\_saki\_introducitonと変換される
-\item attach\_anchorでは
-\end{itemize}\begin{quote}\begin{verbatim}
-'{{attach_anchor(test.png, hiki2latex_saki)}}'
-\end{verbatim}\end{quote}
-と，directory指定しなければならない.

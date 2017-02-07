@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}関連する先行研究}{6}
+\contentsline {subsubsection}{\numberline {1.0.1}ユーザ独自のhelpを作成するgem}{7}
+\contentsline {paragraph}{gemとは}{7}
+\contentsline {paragraph}{gemの利点}{7}
+\contentsline {paragraph}{my\_helpとは}{7}
+\contentsline {paragraph}{my\_helpを研究室内で利用する利点}{7}
+\contentsline {subsubsection}{\numberline {1.0.2}hikiとは}{9}
+\contentsline {subsubsection}{\numberline {1.0.3}TeXとは}{10}
+\contentsline {subsubsection}{\numberline {1.0.4}TeXの特徴}{10}
+\contentsline {subsubsection}{\numberline {1.0.5}latexとは}{10}
+\contentsline {subsubsection}{\numberline {1.0.6}gem中のhikisからhikiへの自動変換}{11}
+\contentsline {paragraph}{使用法，コマンド}{11}
+\contentsline {paragraph}{同期に関する制約}{11}
+\contentsline {paragraph}{テキスト}{11}
+\contentsline {subsubsection}{\numberline {1.0.7}hiki形式で書かれた文章をlatex形式に自動変換する}{13}
+\contentsline {paragraph}{コマンド}{13}
+\contentsline {paragraph}{使用例}{13}
+\contentsline {section}{\numberline {2}my\_help，wiki，latexの自動変換システム}{16}
+\contentsline {subsection}{\numberline {2.1}従来のmemo，latex，hiki}{17}
+\contentsline {subsubsection}{\numberline {2.1.1}my\_help}{17}
+\contentsline {subsubsection}{\numberline {2.1.2}wiki}{17}
+\contentsline {subsubsection}{\numberline {2.1.3}latex}{17}
+\contentsline {section}{\numberline {3}考察}{19}
+\contentsline {subsubsection}{\numberline {3.0.4}情報共有}{20}
+\contentsline {subsubsection}{\numberline {3.0.5}memo，hiki，latexの自動変換}{20}
+\contentsline {subsubsection}{\numberline {3.0.6}暗黙知の形式知化}{21}
+\contentsline {subsubsection}{\numberline {3.0.7}書き方が細かく定められている}{22}
+\contentsline {subsubsection}{\numberline {3.0.8}my\_helpからlatexへの変換}{23}
+\contentsline {subsubsection}{\numberline {3.0.9}コマンド}{23}
+\contentsline {subsubsection}{\numberline {3.0.10}西谷研究室の内部サイトへの表示}{24}
