@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}開発の背景}{3}
+\contentsline {section}{\numberline {2}関連する先行研究}{5}
+\contentsline {subsection}{\numberline {2.1}my\_help}{5}
+\contentsline {paragraph}{gemとは}{5}
+\contentsline {paragraph}{gemの利点}{5}
+\contentsline {paragraph}{コマンド}{5}
+\contentsline {paragraph}{my\_helpを研究室内で利用する利点}{6}
+\contentsline {subsection}{\numberline {2.2}hiki}{6}
+\contentsline {subsection}{\numberline {2.3}hikiutils}{6}
+\contentsline {paragraph}{使用法，コマンド}{6}
+\contentsline {paragraph}{同期に関する制約}{7}
+\contentsline {paragraph}{テキスト}{7}
+\contentsline {section}{\numberline {3}方法}{8}
+\contentsline {subsection}{\numberline {3.1}my\_help/lib/specific\_help.rb}{8}
+\contentsline {subsection}{\numberline {3.2}my\_help/lib/my\_help.rb}{14}
+\contentsline {subsection}{\numberline {3.3}使用法，コマンド}{20}
+\contentsline {subsection}{\numberline {3.4}コマンドの振る舞い}{20}
+\contentsline {paragraph}{TARGET --push}{20}
+\contentsline {paragraph}{my\_help --hiki}{21}
+\contentsline {section}{\numberline {4}FrontPageの設計}{24}
+\contentsline {paragraph}{1.メモの内容による分類}{24}
+\contentsline {paragraph}{2.研究室内のメンバーのhelpへのリンク}{24}
+\contentsline {paragraph}{3.閲覧回数が上位のhelpへのリンク}{25}
+\contentsline {paragraph}{4.更新の新しいhelpへのリンク}{25}
+\contentsline {paragraph}{5.pdf形式で見やすく印刷可能}{25}
+\contentsline {paragraph}{6.分類内で閲覧回数の多いhelpへのリンク}{26}
+\contentsline {section}{\numberline {5}結果}{27}
+\contentsline {section}{\numberline {6}今後の課題}{30}
