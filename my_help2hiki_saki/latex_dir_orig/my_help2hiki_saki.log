@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  9 FEB 2017 19:02
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  11 FEB 2017 04:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -107,10 +107,11 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./my_help.aux) (./behavior.aux
+) (./my_help.aux) (./method.aux
 
 LaTeX Warning: Label `default' multiply defined.
 
+) (./merit.aux
 
 LaTeX Warning: Label `default' multiply defined.
 
@@ -127,7 +128,7 @@ LaTeX Warning: Label `default' multiply defined.
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./merit.aux) (./task.aux) (./reference.aux))
+) (./task.aux) (./acknowledgement.aux) (./reference.aux))
 \openout1 = `my_help2hiki_saki.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -175,8 +176,8 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 47.
- (./my_help2hiki_saki.toc
-[1
+
+(./my_help2hiki_saki.toc [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -196,14 +197,14 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./introduction.tex
 File: my_help2hiki_saki.001.png Graphic file (type eps)
- <my_help2hiki_saki.001.png>
+
+<my_help2hiki_saki.001.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 16.
 File: my_help2hiki_saki.011.png Graphic file (type eps)
-
-<my_help2hiki_saki.011.png> [3
+ <my_help2hiki_saki.011.png> [3
 
 ]) [4]
 \openout2 = `my_help.aux'.
@@ -214,7 +215,6 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 5.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -242,114 +242,109 @@ it helps[]
 
 
 ]) [6] [7]
-\openout2 = `behavior.aux'.
+\openout2 = `method.aux'.
 
- (./behavior.tex
+ (./method.tex
 File: my_help2hiki_saki.010.png Graphic file (type eps)
- <my_help2hiki_saki.010.png>
-File: my_help2hiki_saki.012.png Graphic file (type eps)
-
-<my_help2hiki_saki.012.png> [8
+ <my_help2hiki_saki.010.png>) [8
 
 
 ] [9]
+\openout2 = `merit.aux'.
+
+ (./merit.tex
+File: my_help2hiki_saki.012.png Graphic file (type eps)
+
+<my_help2hiki_saki.012.png> [10
+
+
+]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 61.
+(Font)              scaled to size 9.60999pt on input line 50.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 61.
- [10]
+(Font)              scaled to size 9.60999pt on input line 50.
+ [11]
 File: my_help2hiki_saki.013.png Graphic file (type eps)
  <my_help2hiki_saki.013.png>
-Overfull \hbox (77.86208pt too wide) in paragraph at lines 102--102
- []      \OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/
-text/emacs_help_saki"[] 
+Overfull \hbox (62.11221pt too wide) in paragraph at lines 91--91
+ []   \OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/tex
+t/emacs_help_saki"[] 
  []
 
 
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 102--102
- []      \OT1/cmtt/m/n/10 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/tex
-t/my_todo_saki"[] 
+Overfull \hbox (30.61249pt too wide) in paragraph at lines 91--91
+ []   \OT1/cmtt/m/n/10 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/text/m
+y_todo_saki"[] 
  []
 
 
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 102--102
- []      \OT1/cmtt/m/n/10 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/te
-xt/ssh_help_saki"[] 
+Overfull \hbox (41.1124pt too wide) in paragraph at lines 91--91
+ []   \OT1/cmtt/m/n/10 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/text/
+ssh_help_saki"[] 
  []
 
 
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 102--102
- []      \OT1/cmtt/m/n/10 system "open -a safari 'http://localhost/~saki/hiki-1
-.0/?FrontPage'"[] 
+Overfull \hbox (30.61249pt too wide) in paragraph at lines 91--91
+ []   \OT1/cmtt/m/n/10 system "open -a safari 'http://localhost/~saki/hiki-1.0/
+?FrontPage'"[] 
  []
 
-[11]
+[12]
 File: my_help2hiki_saki.002.png Graphic file (type eps)
- <my_help2hiki_saki.002.png>) [12]
+ <my_help2hiki_saki.002.png> [13] [14] [15]) [16]
 \openout2 = `template.aux'.
 
  (./template.tex
 File: my_help2hiki_saki.014.png Graphic file (type eps)
 
-<my_help2hiki_saki.014.png> [13
+<my_help2hiki_saki.014.png> [17
 
 
-] [14]
+] [18]
 File: my_help2hiki_saki.015.png Graphic file (type eps)
- <my_help2hiki_saki.015.png>) [15]
-\openout2 = `merit.aux'.
-
-
-(./merit.tex [16
-
-
-] [17]) [18]
+ <my_help2hiki_saki.015.png>) [19]
 \openout2 = `task.aux'.
 
- (./task.tex) [19
+
+(./task.tex) [20
+
+
+]
+\openout2 = `acknowledgement.aux'.
+
+ (./acknowledgement.tex) [21
 
 
 ]
 \openout2 = `reference.aux'.
 
  (./reference.tex
-Underfull \hbox (badness 2460) in paragraph at lines 4--5
-[]\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Ruby on Rails \JY1/mc/m/n/10 初心者必見 ！パ
- ッケ ージ管理ツ ール 『\OT1/cmr/m/n/10 gem\JY1/mc/m/n/10 』 を徹底解
- []
-
-
-Overfull \hbox (4.60747pt too wide) in paragraph at lines 7--8
+Overfull \hbox (4.60747pt too wide) in paragraph at lines 10--11
 []\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Wiki/Hiki - 180style wiki\JY1/mc/m/n/10 」 \
 OT1/cmr/m/n/10 ,http://180xz.com/wiki/index.php?Wiki/Hiki,2017/2/7
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Wiki \JY1/mc/m/n/10 の利点\OT1/cmr/m/n/10 /\
-JY1/mc/m/n/10 欠点について検証 」 \OT1/cmr/m/n/10 ,http://www.sd-
- []
-
-) [20
+) [22
 
 
 ] (./my_help2hiki_saki.aux (./introduction.aux) (./my_help.aux)
-(./behavior.aux) (./template.aux) (./merit.aux) (./task.aux) (./reference.aux))
+(./method.aux) (./merit.aux) (./template.aux) (./task.aux)
+(./acknowledgement.aux) (./reference.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2244 strings out of 493807
- 31132 string characters out of 6151950
- 94417 words of memory out of 5000000
- 5674 multiletter control sequences out of 15000+600000
+ 2252 strings out of 493807
+ 31269 string characters out of 6151950
+ 94686 words of memory out of 5000000
+ 5675 multiletter control sequences out of 15000+600000
  15351 words of font info for 69 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  26i,6n,32p,221b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on my_help2hiki_saki.dvi (20 pages, 36292 bytes).
+Output written on my_help2hiki_saki.dvi (22 pages, 40172 bytes).

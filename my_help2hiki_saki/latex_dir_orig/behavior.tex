@@ -1,17 +1,5 @@
 \section{方法}
-本研究で開発したmy\_helpからhikiへの自動変換ソフトmy\_help2hiki
-はmy\_helpのgemに組み込んでいる．
-本章では，my\_help2hikiのコマンドとコマンドによる振る舞いを記述する．
 
-\begin{figure}[htbp]\begin{center}
-\includegraphics[width=6cm,bb=100 100 600 700]{my_help2hiki_saki.010.png}
-\caption{my\_help2hiki}
-\label{default}\end{center}\end{figure}
-
-my\_help2hikiは図のようになっている，
-各学生がmy\_helpで作ったメモは.my\_helpのディレクトリに保存される．
-これをscpコマンドを利用してserverのmy\_help\_sakiのディレクトリにコピーする．
-コピーしたmy\_helpの内容をmy\_help2hikiを利用してhikiに変換し，wikiで表示する．
 
 \subsection{使用法，コマンド}
 my\_helpからhikiに変換するときのコマンドと使用法は以下の通りである．
@@ -31,7 +19,7 @@ TARGET --pushのコードについて詳述する．
 
 コードの中身は以下の通りである．
 \begin{quote}\begin{verbatim}
-    def push
+    def push                             
       p "push my_todo"
       data_dir = File.join(ENV['HOME'],'.my_help')
       FileUtils.cd(data_dir)
