@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  7 FEB 2017 14:21
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  9 FEB 2017 19:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**my_help2hiki_saki_2
-(./my_help2hiki_saki_2.tex
+**my_help2hiki_saki
+(./my_help2hiki_saki.tex
 pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -103,14 +103,11 @@ File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-(./my_help2hiki_saki_2.aux (./introduction_2.aux
+(./my_help2hiki_saki.aux (./introduction.aux
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./my_help_2.aux) (./behavior_2.aux
-
-LaTeX Warning: Label `default' multiply defined.
-
+) (./my_help.aux) (./behavior.aux
 
 LaTeX Warning: Label `default' multiply defined.
 
@@ -120,15 +117,18 @@ LaTeX Warning: Label `default' multiply defined.
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./template_2.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+) (./template.aux
 
 LaTeX Warning: Label `default' multiply defined.
 
 
 LaTeX Warning: Label `default' multiply defined.
 
-) (./merit_2.aux) (./task_2.aux) (./reference_2.aux))
-\openout1 = `my_help2hiki_saki_2.aux'.
+) (./merit.aux) (./task.aux) (./reference.aux))
+\openout1 = `my_help2hiki_saki.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
@@ -175,8 +175,8 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 47.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 47.
-
-(./my_help2hiki_saki_2.toc [1
+ (./my_help2hiki_saki.toc
+[1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -189,33 +189,33 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 3.
 )
 \tf@toc=\write3
-\openout3 = `my_help2hiki_saki_2.toc'.
+\openout3 = `my_help2hiki_saki.toc'.
 
  [2]
-\openout2 = `introduction_2.aux'.
+\openout2 = `introduction.aux'.
 
- (./introduction_2.tex
+ (./introduction.tex
 File: my_help2hiki_saki.001.png Graphic file (type eps)
-
-<my_help2hiki_saki.001.png>
+ <my_help2hiki_saki.001.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 16.
 File: my_help2hiki_saki.011.png Graphic file (type eps)
- <my_help2hiki_saki.011.png> [3
+
+<my_help2hiki_saki.011.png> [3
 
 ]) [4]
-\openout2 = `my_help_2.aux'.
+\openout2 = `my_help.aux'.
 
-
-(./my_help_2.tex
+ (./my_help.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 5.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 5.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -241,300 +241,115 @@ it helps[]
 [5
 
 
-]) [6]
-\openout2 = `behavior_2.aux'.
+]) [6] [7]
+\openout2 = `behavior.aux'.
 
- (./behavior_2.tex
+ (./behavior.tex
 File: my_help2hiki_saki.010.png Graphic file (type eps)
- <my_help2hiki_saki.010.png> [7
-
-
-]
-Overfull \hbox (114.61176pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 @help_cont[:head].each{|line| print line.chomp+"\n" }
- if @help_cont[:head] != nil[] 
- []
-
-
-Overfull \hbox (156.61139pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 @help_cont[:license].each{|line| print "#{line.chomp}
-\n" } if @help_cont[:license] != nil[] 
- []
-
-[8]
-Overfull \hbox (30.61249pt too wide) in paragraph at lines 210--210
- []          \OT1/cmtt/m/n/10 opt.on(opts[:short],opts[:long],opts[:desc]) {dis
-p_help(key)}[] 
- []
-
-
-Overfull \hbox (72.61212pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 opt.on('--store [item]','store [item] in backfile')
-{|item| store(item)}[] 
- []
-
-
-Overfull \hbox (146.11148pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 opt.on('--remove [item]','remove [item] and store i
-n backfile'){|item| remove(item) }[] 
- []
-
-
-Overfull \hbox (4.36272pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 opt.on('--add [item]','add new [item]'){|item| add(
-item) }[] 
- []
-
-
-Overfull \hbox (135.61157pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 opt.on('--backup_list [val]','show last [val] backu
-p list'){|val| backup_list(val)}[] 
- []
-
-
-Overfull \hbox (9.61267pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 backup_size = backup_size>val.to_i ? val.to_i : bac
-kup_size[] 
- []
-
-[9]
-Overfull \hbox (25.36253pt too wide) in paragraph at lines 210--210
- []        \OT1/cmtt/m/n/10 print "No #{item} in this help.  The items are foll
-owing...\n"[] 
- []
-
-[10]
-Overfull \hbox (25.36253pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 File.open(backup,'w'){|file| file.print(YAML.dump(bac
-kup_cont))}[] 
- []
-
-
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 new_item={:opts=>{:short=>'-'+item[0], :long=>'--'+it
-em, :desc=>item},[] 
- []
-
-
-Overfull \hbox (83.11203pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 File.open(@source_file,'w'){|file| file.print YAML.du
-mp(@help_cont)}    end[] 
- []
-
-
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 File.open(@source_file,'w'){|file| file.print YAML.du
-mp(@help_cont)}[] 
- []
-
-[11] [12]
-Overfull \hbox (30.61249pt too wide) in paragraph at lines 210--210
- []      \OT1/cmtt/m/n/10 lines.each{|line| puts CodeRay.scan("+#{line}", :Task
-paper).term}[] 
- []
-
-[13]
-Overfull \hbox (62.11221pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 @default_help_dir = File.expand_path("../../lib/daddy
-gongon", __FILE__)[] 
- []
-
-
-Overfull \hbox (119.86171pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 FileUtils.cp((File.join(@default_help_dir,file)),@l
-ocal_help_dir,:verbose=>true)[] 
- []
-
-
-Overfull \hbox (161.86134pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 opt.on('-e NAME', '--edit NAME', 'edit NAME help(eg
- test_help)'){|file| edit_help(file)}[] 
- []
-
-
-Overfull \hbox (198.61102pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 opt.on('-i NAME', '--init NAME', 'initialize NAME h
-elp(eg test_help).'){|file| init_help(file)}[] 
- []
-
-[14]
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 opt.on('-m', '--make', 'make executables for all he
-lps.'){make_help}[] 
- []
-
-
-Overfull \hbox (83.11203pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 opt.on('--install_local','install local after edit 
-helps'){install_local}[] 
- []
-
-
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 opt.on('--delete NAME','delete NAME help'){|file| d
-elete_help(file)}[] 
- []
-
-
-Overfull \hbox (51.6123pt too wide) in paragraph at lines 390--390
- []       \OT1/cmtt/m/n/10 exe_dir=File.join(File.expand_path('../..',@default_
-help_dir),'exe')[] 
- []
-
-
-Overfull \hbox (35.86244pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 status, stdout, stderr = systemu "gem env|grep '#{USE
-R_INST_DIR}'"[] 
- []
-
-[15]
-Overfull \hbox (20.11258pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 status, stdout, stderr = systemu "gem env|grep '#{I
-NST_DIR}'"[] 
- []
-
-
-Overfull \hbox (67.36217pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 puts "Download my_help from github, and using bundl
-e for edit helps\n"[] 
- []
-
-
-Overfull \hbox (72.61212pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 exe_cont << "help_file = File.join(ENV['HOME'],'.my
-_help','#{file}')\n"[] 
- []
-
-
-Overfull \hbox (4.36272pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 exe_cont << "SpecificHelp::Command.run(help_file, A
-RGV)\n"[] 
- []
-
-[16]
-Overfull \hbox (30.61249pt too wide) in paragraph at lines 390--390
- []        \OT1/cmtt/m/n/10 next if ['emacs_help','e_h','my_help','my_todo'].in
-clude?(file)[] 
- []
-
-
-Overfull \hbox (9.61267pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 p template = File.join(@default_help_dir,'template_he
-lp.yml')[] 
- []
-
-[17]
-Overfull \hbox (77.86208pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/
-text/emacs_help_saki"[] 
- []
-
-
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/tex
-t/my_todo_saki"[] 
- []
-
-
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/te
-xt/ssh_help_saki"[] 
- []
-
-
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 390--390
- []      \OT1/cmtt/m/n/10 system "open -a safari 'http://localhost/~saki/hiki-1
-.0/?FrontPage'"[] 
- []
-
-[18]
+ <my_help2hiki_saki.010.png>
 File: my_help2hiki_saki.012.png Graphic file (type eps)
- <my_help2hiki_saki.012.png> [19]
+
+<my_help2hiki_saki.012.png> [8
+
+
+] [9]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 434.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 434.
+(Font)              scaled to size 9.60999pt on input line 61.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 434.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 434.
+(Font)              scaled to size 9.60999pt on input line 61.
+ [10]
 File: my_help2hiki_saki.013.png Graphic file (type eps)
  <my_help2hiki_saki.013.png>
-Overfull \hbox (77.86208pt too wide) in paragraph at lines 472--472
+Overfull \hbox (77.86208pt too wide) in paragraph at lines 102--102
  []      \OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/
 text/emacs_help_saki"[] 
  []
 
 
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 472--472
+Overfull \hbox (46.36235pt too wide) in paragraph at lines 102--102
  []      \OT1/cmtt/m/n/10 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/tex
 t/my_todo_saki"[] 
  []
 
 
-Overfull \hbox (56.86226pt too wide) in paragraph at lines 472--472
+Overfull \hbox (56.86226pt too wide) in paragraph at lines 102--102
  []      \OT1/cmtt/m/n/10 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/te
 xt/ssh_help_saki"[] 
  []
 
 
-Overfull \hbox (46.36235pt too wide) in paragraph at lines 472--472
+Overfull \hbox (46.36235pt too wide) in paragraph at lines 102--102
  []      \OT1/cmtt/m/n/10 system "open -a safari 'http://localhost/~saki/hiki-1
 .0/?FrontPage'"[] 
  []
 
-[20]
+[11]
 File: my_help2hiki_saki.002.png Graphic file (type eps)
- <my_help2hiki_saki.002.png>) [21] [22]
-\openout2 = `template_2.aux'.
+ <my_help2hiki_saki.002.png>) [12]
+\openout2 = `template.aux'.
 
- (./template_2.tex
-File: my_help2hiki_saki.008.png Graphic file (type eps)
+ (./template.tex
+File: my_help2hiki_saki.014.png Graphic file (type eps)
 
-<my_help2hiki_saki.008.png> [23
+<my_help2hiki_saki.014.png> [13
+
+
+] [14]
+File: my_help2hiki_saki.015.png Graphic file (type eps)
+ <my_help2hiki_saki.015.png>) [15]
+\openout2 = `merit.aux'.
+
+
+(./merit.tex [16
+
+
+] [17]) [18]
+\openout2 = `task.aux'.
+
+ (./task.tex) [19
 
 
 ]
-File: my_help2hiki_saki.009.png Graphic file (type eps)
- <my_help2hiki_saki.009.png> [24]) [25]
-\openout2 = `merit_2.aux'.
+\openout2 = `reference.aux'.
 
-
-(./merit_2.tex [26
-
-
-] [27]) [28]
-\openout2 = `task_2.aux'.
-
- (./task_2.tex) [29
-
-
-]
-\openout2 = `reference_2.aux'.
-
- (./reference_2.tex
+ (./reference.tex
 Underfull \hbox (badness 2460) in paragraph at lines 4--5
 []\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Ruby on Rails \JY1/mc/m/n/10 初心者必見 ！パ
  ッケ ージ管理ツ ール 『\OT1/cmr/m/n/10 gem\JY1/mc/m/n/10 』 を徹底解
  []
 
-) [30
+
+Overfull \hbox (4.60747pt too wide) in paragraph at lines 7--8
+[]\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Wiki/Hiki - 180style wiki\JY1/mc/m/n/10 」 \
+OT1/cmr/m/n/10 ,http://180xz.com/wiki/index.php?Wiki/Hiki,2017/2/7
+ []
 
 
-] (./my_help2hiki_saki_2.aux (./introduction_2.aux) (./my_help_2.aux)
-(./behavior_2.aux) (./template_2.aux) (./merit_2.aux) (./task_2.aux)
-(./reference_2.aux))
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\JY1/mc/m/n/10 「\OT1/cmr/m/n/10 Wiki \JY1/mc/m/n/10 の利点\OT1/cmr/m/n/10 /\
+JY1/mc/m/n/10 欠点について検証 」 \OT1/cmr/m/n/10 ,http://www.sd-
+ []
+
+) [20
+
+
+] (./my_help2hiki_saki.aux (./introduction.aux) (./my_help.aux)
+(./behavior.aux) (./template.aux) (./merit.aux) (./task.aux) (./reference.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2241 strings out of 493807
- 31257 string characters out of 6151950
- 92408 words of memory out of 5000000
- 5671 multiletter control sequences out of 15000+600000
+ 2244 strings out of 493807
+ 31132 string characters out of 6151950
+ 94417 words of memory out of 5000000
+ 5674 multiletter control sequences out of 15000+600000
  15351 words of font info for 69 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 26i,6n,32p,223b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,6n,32p,221b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on my_help2hiki_saki_2.dvi (30 pages, 46404 bytes).
+Output written on my_help2hiki_saki.dvi (20 pages, 36292 bytes).
