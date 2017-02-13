@@ -1,12 +1,12 @@
 \section{FrontPageの設計}
 my\_helpをよりよくするための設計を示す．
-当初設計した研究室内のすべてのhelpを表示するFrontPageの雛形を図\ref{FrongPage}に示した．
+当初設計した研究室内のすべてのhelpを表示するFrontPageのprototypeを図\ref{FrongPage}に示した．
 各学生のFrontPage，各helpのページに分けて，実装すると便利になる理由と共に記述している．
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=6.0cm,bb=0 0 600 800]{my_help2hiki_saki.014.png}
-\caption{研究室内のすべてのhelpを表示するFrontPageの雛形.}
+\caption{研究室内のすべてのhelpを表示するFrontPageのprototype.}
 \label{FrongPage}
 \label{default}\end{center}\end{figure}
 
@@ -19,49 +19,42 @@ hiki文書の作成にはmiというソフトを使用している．
 調べたいことに関してのhelpを探しやすくすることができる．
 \item[研究室内のメンバーのhelpへのリンク]
 同研究室の他学生のFrontPageへのリンクを作る．
-同回のメンバーが書いたメモを見たい，先輩のメモを見たい，他メンバーの研究を知りたい．
+同回のメンバーが書いたメモを見たい，先輩のメモを見たい，他メンバーの研究を知りたい，などの
 そのときの目的に応じて閲覧するhelpを選ぶことができる．
 \end{description}
 
-\begin{itemize}
-\item 3.閲覧回数が上位のhelpへのリンク
-\end{itemize}
 \begin{description}
-\item 閲覧回数の多い，研究室内の学生が見た回数の多いものへのリンクを作る．
+\item[閲覧回数が上位のhelpへのリンク]
+閲覧回数の多い，研究室内の学生が見た回数の多いものへのリンクを作る．
 研究室に入ってばかりで分からないことが多いときにこのhelpを見れば，研究室のことが理解できる．
-知らなくても支障はないが，知っておくと便利な豆知識を得ることが期待される．\\
+知らなくても支障はないが，知っておくと便利な豆知識を得ることが期待される．
 \end{description}
 
-\begin{itemize}
-\item 4.更新の新しいhelpへのリンク
-\end{itemize}
 \begin{description}
-\item 更新が新しいものを表示しておくことで，メンバーが得た最新の知識を得やすくなる．
-また，他メンバーがどのような研究を進めているか，どのようなことを調べてたのかを知ることができ，自分の研究の進め方の参考にすることができる．
+\item[更新の新しいhelpへのリンク]
+更新が新しいものを表示しておくことで，メンバーが得た最新の知識を得やすくなる．
+また，他メンバーがどのような研究を進めているか，どのようなことを調べたのかを知ることができ，自分の研究の進め方の参考にすることができる．
 \end{description}
 
-\newpage
+次にそれぞれのhelpのページの仕様を図\ref{emacs}のemacs\_helpのページを例にして述べる．
 \begin{figure}[htbp]\begin{center}
 \includegraphics[width=6cm,bb=0 0 600 800]{my_help2hiki_saki.015.png}
-\caption{例 emacs\_helpから一部抜粋}
+\caption{例 emacs\_helpから一部抜粋．}\label{emacs}
 \label{default}\end{center}\end{figure}
 
-\begin{itemize}
-\item 5. pdf形式で見やすく印刷可能
-\end{itemize}
 \begin{description}
-\item 紙媒体で持ち歩くことを可能にするために，pdf形式に変換することで見やすくしたhelpを印刷することができる．
+
+\item[pdf形式で見やすく印刷可能]
+紙媒体で持ち歩くことを可能にするために，pdf形式に変換することで見やすくしたhelpを印刷することができる．
 emacs\_helpを例にして考える．このhelpはターミナルでemacsを使うときのキーバインドを表している．
 ターミナルを利用していると，このhelpを開きながら操作することは手間がかかる．
 そこで見やすくしたhelpを紙に印刷することでこの手間を省くことができる．
-西谷研究室ではhikiからlatex(pdf形式への変換を可能にするソフト)への変換システム，hiki2latexがあるので，作成可能だと考えられる．\\
+西谷研究室ではhikiからlatex(pdf形式への変換を可能にするソフト)への変換システム，hiki2latexがあるので，作成可能だと考えられる．
 \end{description}
 
-\begin{itemize}
-\item 6.分類内で閲覧回数の多いhelpへのリンク
-\end{itemize}
 \begin{description}
-\item 分類内で閲覧回数の多いhelpは他メンバーの多くが得た知識なので，
+\item[分類内で閲覧回数の多いhelpへのリンク]
+分類内で閲覧回数の多いhelpは他メンバーの多くが得た知識なので，
 知っておくべき知識であるといえる．
 自分がその分類内で分からないことを解決する手がかりになることが期待される
 \end{description}
