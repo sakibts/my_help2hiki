@@ -20,7 +20,7 @@ TARGET --pushのコードについて詳述する．
 \label{default}\end{center}\end{figure}
 
 コードの中身は以下の通りである．
-\begin{quote}\begin{verbatim}
+\begin{lstlisting}[style=,basicstyle={\scriptsize\ttfamily}]
     def push
       p "push my_todo"
       data_dir = File.join(ENV['HOME'],'.my_help')
@@ -30,8 +30,7 @@ TARGET --pushのコードについて詳述する．
       system "scp -r ~/.my_help saki@nishitani0:~"
       system "ssh saki@nishitani0 ls ~/.my_help" 
     end
-\end{verbatim}\end{quote}
-
+\end{lstlisting}
 コードの詳細を記述する．
 \begin{itemize}
 \item 3,4行目

@@ -1,31 +1,26 @@
 \section{FrontPageの設計}
 my\_helpをよりよくするための設計を示す．
+当初設計した研究室内のすべてのhelpを表示するFrontPageの雛形を図\ref{FrongPage}に示した．
 各学生のFrontPage，各helpのページに分けて，実装すると便利になる理由と共に記述している．
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=6.0cm,bb=0 0 600 800]{my_help2hiki_saki.014.png}
-\caption{FrontPage}
+\caption{研究室内のすべてのhelpを表示するFrontPageの雛形.}
+\label{FrongPage}
 \label{default}\end{center}\end{figure}
 
-\begin{itemize}
-\item 1.メモの内容による分類
-\end{itemize}
+
 \begin{description}
-\item 研究室内の所属学生の利用するハードウェア，ソフトウェアは同じものが多い．
+\item[メモの内容による分類] 研究室内の所属学生の利用するハードウェア，ソフトウェアは同じものが多い．
 例えば，西谷研究室ではハードウェアは全員がmacを使い，プログラム作成はターミナル，
 hiki文書の作成にはmiというソフトを使用している．
 それぞれのハードウェア，ソフトウェアに関するhelpを分類分けしておくことで，
-調べたいことに関してのhelpを探しやすくすることができる．\\
-\end{description}
-\newpage
-\begin{itemize}
-\item 2.研究室内のメンバーのhelpへのリンク
-\end{itemize}
-\begin{description}
-\item 同研究室の他学生のFrontPageへのリンクを作る．
+調べたいことに関してのhelpを探しやすくすることができる．
+\item[研究室内のメンバーのhelpへのリンク]
+同研究室の他学生のFrontPageへのリンクを作る．
 同回のメンバーが書いたメモを見たい，先輩のメモを見たい，他メンバーの研究を知りたい．
-そのときの目的に応じて閲覧するhelpを選ぶことができる．\\
+そのときの目的に応じて閲覧するhelpを選ぶことができる．
 \end{description}
 
 \begin{itemize}
