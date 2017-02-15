@@ -42,25 +42,28 @@ my\_helpをよりよいソフトにするためにFrontPageの設計をする．
 このような動作をすることのできるコマンドの開発を行う．
 
 \section{結果}
-コマンドを2つに分けて開発を行った．
+コマンドを2つに分けてシステムの開発を行った．
 
 \begin{itemize}
-\item TARGET --push : 作成したメモ(TARGET)をサーバに送る．
-\end{itemize}\begin{quote}\begin{verbatim}
-date_dir = File.join(ENV['HOME'],'.my_help')
-FileUtils.cd(data_dir)
-system "rm -rf ~/.my_help/*.yml~"
-system "scp -r ~/.my_help saki@nishitani0:~"
-system "ssh saki@nishitani0 ls ~/.my_help"
-\end{verbatim}\end{quote}
+\item TARGET --push
+\end{itemize}
+\begin{description}
+\item my\_helpで作成したメモが自動的に保存される.my\_helpのディレクトリから，
+必要なメモのみを西谷研究室で使用しているサーバであるnishitani0
+にscpコマンドを利用してコピーする．
+同時にコピーができているかの確認も，
+コマンドによって行うことができるような仕様になっている．
+\end{description}
 \begin{itemize}
-\item my\_help --hiki : メモをhikiの形式に変換しwikiで表示
-\end{itemize}\begin{quote}\begin{verbatim}
-system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/text/emacs_help_saki"
-system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/text/my_todo_saki"
-system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/text/ssh_help_saki"
-system "open -a safari 'http://localhost/~saki/hiki-1.0/?FrontPage'"
-\end{verbatim}\end{quote}
+\item my\_help --hiki 
+\end{itemize}
+\begin{description}
+\item 作成したメモをhikiの形式に変換し，wikiで表示することのできる
+/Sites/hiki-1.0/data/textにコピーする．
+全てのメモへのリンクがあるトップページであるFrontpageを作り，
+自動で表示を行う．
+\end{description}
+
 \section{FrontPageの設計}
 知識共有のため，以下のような機能の実装を設計した．
 
@@ -95,7 +98,7 @@ system "open -a safari 'http://localhost/~saki/hiki-1.0/?FrontPage'"
 \end{figure}
 
 \section{今後の課題}
-西谷研究室には内部サイトがあり，研究室内でしようするシステムのマニュアル等が公開されている．
+西谷研究室には内部サイトがあり，研究室内で使用するシステムのマニュアル等が公開されている．
 本研究で表示を可能にしたFrontPageを内部サイトに表示するようにすれば，
 さらに研究室内のナレッジマネジメントに役立つのではないかと考えている．
 今後，作成したFrontPageの設計に従い開発を続けてほしい．
