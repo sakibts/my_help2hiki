@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {4}結果}{10}
 \contentsline {subsection}{\numberline {4.1}使用法，コマンド}{10}
 \contentsline {subsection}{\numberline {4.2}TARGET --push のコードの詳述}{10}
-\contentsline {subsection}{\numberline {4.3}my\_help --hiki のコードの詳述}{12}
-\contentsline {subsection}{\numberline {4.4}my\_help2hikiによる利点}{14}
-\contentsline {section}{\numberline {5}FrontPageの設計}{17}
-\contentsline {section}{\numberline {6}今後の課題}{20}
-\contentsline {section}{\numberline {7}謝辞}{21}
+\contentsline {subsection}{\numberline {4.3}my\_help --hiki のコードの詳述}{11}
+\contentsline {subsection}{\numberline {4.4}my\_help2hikiによる利点}{13}
+\contentsline {section}{\numberline {5}FrontPageの設計}{15}
+\contentsline {section}{\numberline {6}今後の課題}{18}
+\contentsline {section}{\numberline {7}謝辞}{19}
