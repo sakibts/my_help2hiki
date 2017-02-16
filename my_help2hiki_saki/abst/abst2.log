@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  14 FEB 2017 21:19
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.11.26)  15 FEB 2017 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -117,58 +117,35 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 49.
+(Font)              scaled to size 9.60999pt on input line 51.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 49.
+(Font)              scaled to size 9.60999pt on input line 51.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (153.04924pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/10 system "emacs_help --to_hiki > ~/Sites/hiki-1.0/data/text/e
-macs_help_saki"[] 
- []
-
-
-Overfull \hbox (121.54951pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/10 system "my_todo --to_hiki > ~/Sites/hiki-1.0/data/text/my_t
-odo_saki"[] 
- []
-
-
-Overfull \hbox (132.04942pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/10 system "ssh_help --to_hiki > ~/Sites/hiki-1.0/data/text/ssh
-_help_saki"[] 
- []
-
-
-Overfull \hbox (121.54951pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/10 system "open -a safari 'http://localhost/~saki/hiki-1.0/?Fr
-ontPage'"[] 
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 78.
+(Font)              scaled to size 6.72699pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 78.
+(Font)              scaled to size 4.805pt on input line 81.
 File: my_help2hiki_saki.014.png Graphic file (type eps)
+
 <my_help2hiki_saki.014.png>
-Overfull \hbox (1.06685pt too wide) in paragraph at lines 81--82
+Overfull \hbox (1.06685pt too wide) in paragraph at lines 84--85
  [] 
  []
 
 File: my_help2hiki_saki.015.png Graphic file (type eps)
 <my_help2hiki_saki.015.png>
-Overfull \hbox (1.06685pt too wide) in paragraph at lines 88--89
+Overfull \hbox (1.06685pt too wide) in paragraph at lines 91--92
  [] 
  []
 
 
-Overfull \hbox (15.33331pt too wide) in paragraph at lines 78--94
+Overfull \hbox (15.33331pt too wide) in paragraph at lines 81--97
  [] 
  []
 
@@ -181,8 +158,8 @@ Here is how much of TeX's memory you used:
  9887 string characters out of 6151950
  72091 words of memory out of 5000000
  4346 multiletter control sequences out of 15000+600000
- 12991 words of font info for 58 fonts, out of 8000000 for 9000
+ 13128 words of font info for 58 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  25i,10n,21p,197b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on abst2.dvi (1 page, 6172 bytes).
+Output written on abst2.dvi (1 page, 6420 bytes).
